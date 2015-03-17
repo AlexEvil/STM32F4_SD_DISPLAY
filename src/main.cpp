@@ -95,8 +95,7 @@ int main(void)
     ///-------------------------------------------------------------------------
     MainSystemInit();
     LedInit();
-	HAL_NVIC_SetPriority(EXTI9_5_IRQn,PreemptPriority,SubPriority);
-	HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
+
 	//osDelay(5000);
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
@@ -104,6 +103,11 @@ int main(void)
         {
             LedOn(LED_RED);
         }
+		else
+		{
+			HAL_NVIC_SetPriority(EXTI9_5_IRQn,PreemptPriority,SubPriority);
+			HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
+		}
     #endif
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
