@@ -48,19 +48,13 @@ static void SPIx_MspInit(SPI_HandleTypeDef *hspi)
     GPIO_InitStruct.Speed     = GPIO_SPEED_HIGH;
     GPIO_InitStruct.Alternate = SD_IO_SPIx_SCK_AF;
     HAL_GPIO_Init(SD_IO_SPIx_SCK_GPIO_PORT, &GPIO_InitStruct);
-    /// Lock SPI SCK
-    ///HAL_GPIO_LockPin(SD_IO_SPIx_SCK_GPIO_PORT,SD_IO_SPIx_SCK_PIN);
     /// Configure SPI MISO and MOSI
     GPIO_InitStruct.Pin       = SD_IO_SPIx_MOSI_PIN;
     GPIO_InitStruct.Alternate = SD_IO_SPIx_MISO_MOSI_AF;
     GPIO_InitStruct.Pull      = GPIO_PULLDOWN;
     HAL_GPIO_Init(SD_IO_SPIx_MISO_MOSI_GPIO_PORT, &GPIO_InitStruct);
-    /// Lock SPI MOSI
-    ///HAL_GPIO_LockPin(SD_IO_SPIx_MISO_MOSI_GPIO_PORT,SD_IO_SPIx_MOSI_PIN);
     GPIO_InitStruct.Pin = SD_IO_SPIx_MISO_PIN;
     HAL_GPIO_Init(SD_IO_SPIx_MISO_MOSI_GPIO_PORT, &GPIO_InitStruct);
-    /// Lock SPI MISO
-    ///HAL_GPIO_LockPin(SD_IO_SPIx_MISO_MOSI_GPIO_PORT,SD_IO_SPIx_MISO_PIN);
     /// Configure the SPI peripheral. Enable SPI clock
     SD_IO_SPIx_CLK_ENABLE();
 }
@@ -79,7 +73,7 @@ static void SPIx_Init(void)
         /// SPI baudrate is set to 12,5 MHz maximum (PCLK2/SPI_BaudRatePrescaler = 100/8 = 12,5 MHz) 
         ///	to verify these constraints:
         ///		- SD card SPI interface max baudrate is 25MHz for write/read
-        handleSD_Spi.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8;
+        handleSD_Spi.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_64;
         handleSD_Spi.Init.Direction         = SPI_DIRECTION_2LINES;
         handleSD_Spi.Init.CLKPhase          = SPI_PHASE_2EDGE;
         handleSD_Spi.Init.CLKPolarity       = SPI_POLARITY_HIGH;
@@ -166,14 +160,11 @@ void SD_IO_Init(void)
 	GPIO_InitStruct.Pull  = GPIO_PULLUP;
 	GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
 	HAL_GPIO_Init(SD_CS_GPIO_PORT, &GPIO_InitStruct);
-    ///HAL_GPIO_LockPin(SD_CS_GPIO_PORT,SD_CS_PIN);
     /// Configure SPI Card Detect Pin
 	GPIO_InitStruct.Pin       = SD_IO_DETECT_PIN;
-	GPIO_InitStruct.Mode      = GPIO_MODE_IT_RISING;//_FALLING;
+	GPIO_InitStruct.Mode      = GPIO_MODE_IT_RISING_FALLING; //GPIO_MODE_INPUT;
 	GPIO_InitStruct.Pull      = GPIO_NOPULL;
     HAL_GPIO_Init(SD_IO_DETECT_GPIO_PORT, &GPIO_InitStruct);
-	HAL_GPIO_LockPin(SD_IO_DETECT_GPIO_PORT,SD_IO_DETECT_PIN);
-    ///HAL_GPIO_LockPin(SD_IO_DETECT_GPIO_PORT,SD_IO_DETECT_PIN);
 	/// Put SD in SPI mode
 	/// SD SPI Config
 	SPIx_Init();

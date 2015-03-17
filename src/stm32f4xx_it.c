@@ -174,15 +174,7 @@ void CAN1_SCE_IRQHandler(void){while(1){}}
 ///-----------------------------------------------------------------------------
 void EXTI9_5_IRQHandler(void)
 {
-	static int a = 0;
-	if(HAL_NVIC_GetActive(EXTI9_5_IRQn) == 1)
-	{
-		a++;
-		HAL_NVIC_ClearPendingIRQ(EXTI9_5_IRQn);
-		HAL_GPIO_EXTI_IRQHandler(SD_IO_DETECT_PIN);
-		//__HAL_GPIO_EXTI_CLEAR_FLAG(SD_IO_DETECT_PIN);
-		__HAL_GPIO_EXTI_CLEAR_IT(SD_IO_DETECT_PIN);
-	}
+	HAL_GPIO_EXTI_IRQHandler(SD_IO_DETECT_PIN);
 }
 ///-----------------------------------------------------------------------------
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)

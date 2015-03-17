@@ -47,7 +47,7 @@
 //   <o>Filename Cache Size <0-1000000>
 //   <i>Define number of cached file or directory names.
 //   <i>48 bytes of RAM is required for each cached name.
-#define MC0_NAME_CACHE_SIZE     0
+#define MC0_NAME_CACHE_SIZE     48
 
 //   <q>Use FAT Journal
 //   <i>Protect File Allocation Table and Directory Entries for

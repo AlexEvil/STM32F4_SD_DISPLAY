@@ -7,28 +7,14 @@ char  SD_Path[4]; /// User logical drive path
 ///-----------------------------------------------------------------------------
 bool SD_Connect(void)
 {
-	FRESULT res;
 	if(FATFS_LinkDriver(&SD_Driver,SD_Path) == 0)
 	{
-		res = f_mount(&SD_FatFs,(TCHAR const*)SD_Path,1);
-		switch(res)
-		{
-			case FR_NO_FILESYSTEM : 
-                                    break;
-		}
-		if(res == FR_OK)
-		{
-			return(true);
-		}
-		else
-		{
-			return(false);
-		}
+		if(f_mount(&SD_FatFs,(TCHAR const*)SD_Path,1) == FR_OK)
+        {
+            return(true);
+        }
 	}
-	else
-	{
-		return(false);
-	}
+    return(false);
 }
 ///-----------------------------------------------------------------------------
 bool SD_Disconnect(void)

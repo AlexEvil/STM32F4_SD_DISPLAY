@@ -118,7 +118,7 @@
 //   <i> When the Cortex-M SysTick timer is enabled, the value also configures the SysTick timer.
 //   <i> Default: 1000  (1ms)
 #ifndef OS_TICK
- #define OS_TICK        10000
+ #define OS_TICK        1000
 #endif
  
 // </h>

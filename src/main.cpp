@@ -95,8 +95,10 @@ int main(void)
     ///-------------------------------------------------------------------------
     MainSystemInit();
     LedInit();
+	osDelay(500);
 
-	//osDelay(5000);
+			HAL_NVIC_SetPriority(EXTI9_5_IRQn,PreemptPriority,SubPriority);
+			HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
         if(SD_Connect() == false)
@@ -105,8 +107,7 @@ int main(void)
         }
 		else
 		{
-			HAL_NVIC_SetPriority(EXTI9_5_IRQn,PreemptPriority,SubPriority);
-			HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
+
 		}
     #endif
     ///-------------------------------------------------------------------------
