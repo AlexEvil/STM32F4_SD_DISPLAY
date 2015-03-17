@@ -1,0 +1,11 @@
+-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork 
+-I D:\Projects\Electronics\Current\Display\AT050TN\Source\prj\RTE
+-I D:\Projects\Electronics\Current\Display\AT050TN\Source\prj\RTE\Device\STM32F407VGTx
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC
+-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
+-D_RTE_ -DSTM32F407xx
+-o .\objects\spi_stm32f4xx.o --omf_browse .\objects\spi_stm32f4xx.crf --depend .\objects\spi_stm32f4xx.d --feedback ".\Objects\Display.fed" "C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\CMSIS\Driver\SPI_STM32F4xx.c"
