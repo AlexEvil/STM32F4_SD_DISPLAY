@@ -1,0 +1,36 @@
+FTF 5.0 inch with uSD Card  Revised: Wednesday, February 04, 2015
+Made By Evil_K :)          Revision: 1.0
+
+
+
+
+
+
+
+Bill Of Materials       February 4,2015      14:44:56	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	6	C1,C5,C8,C9,C11,C12	0.1
+2	4	C2,C3,C7,C10	10.0
+3	2	C4,C6	4.7
+4	1	DC/DC1	G5121
+5	1	D1	SS0520
+6	1	J1	INTERFACE
+7	1	J2	POWER
+8	1	J3	SWITCH
+9	1	L1	10uH
+10	27	R1,R2,R3,R4,R5,R6,R7,R8,	100R
+		R9,R10,R11,R12,R13,R14,
+		R15,R16,R17,R18,R19,R20,
+		R21,R22,R23,R24,R25,R26,
+		R27
+11	1	R28	33R
+12	13	R29,R30,R31,R32,R33,R34,	47k
+		R35,R36,R37,R38,R39,R40,
+		R41
+13	1	SD1	uSD_MCSP-Q-08-A-SG
+14	1	TFT1	AT050TN33
+15	1	U1	LM1117
+16	1	U2	XPT2046

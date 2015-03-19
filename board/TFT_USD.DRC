@@ -1,0 +1,150 @@
+Date and Time : 02/04/15 14:31:39
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1608): Net has no driving source N10296 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1608): Net has no driving source N10389 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G0 
+                    SCHEMATIC1, Main  (6.60, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G1 
+                    SCHEMATIC1, Main  (6.60, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B3 
+                    SCHEMATIC1, Main  (6.60, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections N10296 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G6 
+                    SCHEMATIC1, Main  (6.60, 2.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B5 
+                    SCHEMATIC1, Main  (6.60, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R6 
+                    SCHEMATIC1, Main  (6.60, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G2 
+                    SCHEMATIC1, Main  (6.60, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B1 
+                    SCHEMATIC1, Main  (6.60, 2.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R2 
+                    SCHEMATIC1, Main  (6.60, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G4 
+                    SCHEMATIC1, Main  (6.60, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R4 
+                    SCHEMATIC1, Main  (6.60, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R0 
+                    SCHEMATIC1, Main  (6.60, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections N10389 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G7 
+                    SCHEMATIC1, Main  (6.60, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B6 
+                    SCHEMATIC1, Main  (6.60, 3.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R7 
+                    SCHEMATIC1, Main  (6.60, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G3 
+                    SCHEMATIC1, Main  (6.60, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R3 
+                    SCHEMATIC1, Main  (6.60, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B0 
+                    SCHEMATIC1, Main  (6.60, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_G5 
+                    SCHEMATIC1, Main  (6.60, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B4 
+                    SCHEMATIC1, Main  (6.60, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R5 
+                    SCHEMATIC1, Main  (6.60, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_R1 
+                    SCHEMATIC1, Main  (6.60, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B2 
+                    SCHEMATIC1, Main  (6.60, 2.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections FTF_B7 
+                    SCHEMATIC1, Main  (6.60, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R0 
+                    SCHEMATIC1, Main  (3.90, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R1 
+                    SCHEMATIC1, Main  (3.90, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R2 
+                    SCHEMATIC1, Main  (3.90, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R3 
+                    SCHEMATIC1, Main  (3.90, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R4 
+                    SCHEMATIC1, Main  (3.90, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R5 
+                    SCHEMATIC1, Main  (3.90, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R6 
+                    SCHEMATIC1, Main  (3.90, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_R7 
+                    SCHEMATIC1, Main  (3.90, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G0 
+                    SCHEMATIC1, Main  (5.90, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G1 
+                    SCHEMATIC1, Main  (5.90, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G2 
+                    SCHEMATIC1, Main  (5.90, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G3 
+                    SCHEMATIC1, Main  (5.90, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G4 
+                    SCHEMATIC1, Main  (5.90, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G5 
+                    SCHEMATIC1, Main  (5.90, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G6 
+                    SCHEMATIC1, Main  (5.90, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_G7 
+                    SCHEMATIC1, Main  (5.90, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B0 
+                    SCHEMATIC1, Main  (5.90, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B1 
+                    SCHEMATIC1, Main  (5.90, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B2 
+                    SCHEMATIC1, Main  (5.90, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B3 
+                    SCHEMATIC1, Main  (5.90, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B4 
+                    SCHEMATIC1, Main  (5.90, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B5 
+                    SCHEMATIC1, Main  (5.90, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B6 
+                    SCHEMATIC1, Main  (5.90, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections TFT_B7 
+                    SCHEMATIC1, Main  (5.90, 2.30) 
+
+Checking For Unconnected Bus Nets
+ERROR(ORCAP-1592): Bus has no name and therefore defines no signals. N00214 
+                    SCHEMATIC1, Main  (7.50, 5.20) 
+ERROR(ORCAP-1592): Bus has no name and therefore defines no signals. N15718 
+                    SCHEMATIC1, Main  (2.80, 2.10) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.10) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.30) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10296 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10296 
+                    SCHEMATIC1, Main  (7.50, 4.00) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10296 
+                    SCHEMATIC1, Main  (7.50, 4.10) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10296 
+                    SCHEMATIC1, Main  (7.50, 4.10) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.10) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10389 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10389 
+                    SCHEMATIC1, Main  (7.50, 4.20) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10389 
+                    SCHEMATIC1, Main  (7.50, 4.30) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N10389 
+                    SCHEMATIC1, Main  (7.50, 4.30) 
+WARNING(ORCAP-1595): Two wires/busses of different nets intersect visually, yet nets are not connected N00214 
+                    SCHEMATIC1, Main  (7.50, 4.30) 

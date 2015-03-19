@@ -1,0 +1,1456 @@
+Wed Feb 04 14:54:04 UserDiv from Layout.INI for AutoECO: 60
+Wed Feb 04 14:54:04 Loaded file C:\CADENCE\SPB_16.2\TOOLS\LAYOUT_PLUS\DATA\DEFAULT.TCH
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\CLCC.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON050T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON085T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050F.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIN.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100B.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ECON100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\FBUS.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ISA.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\JUMPER.LLB
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LCON100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PC104.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCI.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON156T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PGA.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PLCC.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUAD.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUADB.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RELAY.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RF.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SBUS.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050F.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100F.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOJ.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\STIFF.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DISC.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_RAD.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TO.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Wed Feb 04 14:54:04 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Feb 04 14:55:21 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:21 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:29 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 14:55:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:55:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:55:38 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:38 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Wed Feb 04 14:55:45 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:55:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:55:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:55:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 14:55:57 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:55:59 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:00 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:56:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 14:56:10 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 14:56:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:23 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 14:56:27 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Wed Feb 04 14:56:29 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:30 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:33 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:33 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:33 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:33 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:40 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:40 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:40 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:45 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 14:56:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:49 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:56:55 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Wed Feb 04 14:56:56 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:00 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:01 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:05 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:05 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:10 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:13 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:20 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:23 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Feb 04 14:57:27 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Wed Feb 04 14:57:28 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:29 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:30 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Wed Feb 04 14:57:31 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:31 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:36 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:39 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Wed Feb 04 14:57:40 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:42 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Feb 04 14:57:42 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:43 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:43 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 14:57:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:07 Saved as file ~undo.max
+Wed Feb 04 15:09:16 Saved as file ~undo.max
+Wed Feb 04 15:09:19 Saved as file ~undo.max
+Wed Feb 04 15:09:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:34 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:36 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 15:09:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:44 Saved as file ~undo.max
+Wed Feb 04 15:09:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:49 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 15:09:51 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:09:57 Saved as file ~undo.max
+Wed Feb 04 15:10:11 Saved as file ~undo.max
+Wed Feb 04 15:10:28 Saved as file ~undo.max
+Wed Feb 04 15:10:53 Saved as file ~undo.max
+Wed Feb 04 15:11:07 Saved as file ~undo.max
+Wed Feb 04 15:12:07 Saved as file ~undo.max
+Wed Feb 04 15:12:10 Saved as file ~undo.max
+Wed Feb 04 15:12:23 Saved as file ~undo.max
+Wed Feb 04 15:12:41 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 15:13:24 Saved as file ~undo.max
+Wed Feb 04 15:14:31 Saved as file ~undo.max
+Wed Feb 04 15:14:42 Saved as file ~undo.max
+Wed Feb 04 15:14:44 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 15:14:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:14:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 15:14:48 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 15:16:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.met
+Wed Feb 04 15:17:32 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.met
+Wed Feb 04 15:17:38 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 15:21:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 15:40:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 15:42:50 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 15:51:40 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 15:54:59 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 16:10:34 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:10:35 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:10:36 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:10:45 Saved as file ~undo.max
+Wed Feb 04 16:10:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:10:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:10:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:10:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:10:48 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:10:54 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:11:00 Saved as file ~undo.max
+Wed Feb 04 16:11:20 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 16:11:34 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 16:12:21 Saved as file BACKUP1.MAX
+Wed Feb 04 16:13:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:13:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:13:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:13:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:13:58 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:14:00 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:14:05 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Wed Feb 04 16:14:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:14:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:15:13 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:15:17 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:15:37 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:06 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:08 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:17 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:22 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:33 Saved as file ~undo.max
+Wed Feb 04 16:16:53 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 16:16:55 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:55 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:16:56 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:17:47 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.met
+Wed Feb 04 16:37:32 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.met
+Wed Feb 04 16:37:42 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.met
+Wed Feb 04 16:41:56 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\padstack.llb
+Wed Feb 04 16:54:09 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Footprint coords will be rounded to nearest base unit.
+Wed Feb 04 16:54:10 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:54:10 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:54:23 Saved as file BACKUP1.MAX
+Wed Feb 04 16:54:25 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:54:25 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:54:25 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:54:25 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:54:25 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 16:54:30 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 16:54:38 Saved as file ~undo.max
+Wed Feb 04 16:55:26 Saved as file ~undo.max
+Wed Feb 04 16:55:33 Saved as file ~undo.max
+Wed Feb 04 16:55:56 Saved as file ~undo.max
+Wed Feb 04 16:56:06 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 17:04:53 Saved as file BACKUP1.MAX
+Wed Feb 04 17:14:53 Saved as file BACKUP1.MAX
+Wed Feb 04 17:24:54 Saved as file BACKUP1.MAX
+Wed Feb 04 17:34:54 Saved as file BACKUP1.MAX
+Wed Feb 04 17:44:54 Saved as file BACKUP1.MAX
+Wed Feb 04 17:54:54 Saved as file BACKUP1.MAX
+Wed Feb 04 18:03:54 Saved as file ~undo.max
+Wed Feb 04 18:04:55 Saved as file BACKUP1.MAX
+Wed Feb 04 18:05:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:05:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:05:15 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:05:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:05:38 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:06:47 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:02 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:13:02 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:13:02 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:13:10 Saved as file ~undo.max
+Wed Feb 04 18:13:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:11 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:12 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:13:13 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:15 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:13:19 Saved as file ~undo.max
+Wed Feb 04 18:13:23 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 18:14:55 Saved as file BACKUP1.MAX
+Wed Feb 04 18:15:23 Saved as file ~undo.max
+Wed Feb 04 18:15:27 Saved as file ~undo.max
+Wed Feb 04 18:16:07 Saved as file ~undo.max
+Wed Feb 04 18:16:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:16:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:16:10 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:16:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:20:44 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:20:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:20:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:52 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:52 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:20:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:20:55 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:21:05 Saved as file ~undo.max
+Wed Feb 04 18:21:17 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 18:24:43 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:24:43 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:24:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:24:46 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:25:40 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:26:06 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:26:32 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:27:22 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:28:07 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:28:41 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:28:56 Saved as file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:05 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:34:05 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:34:06 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:34:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:20 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 18:34:21 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:23 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 18:34:29 Saved as file ~undo.max
+Wed Feb 04 18:35:01 Saved as file ~undo.max
+Wed Feb 04 18:39:56 Saved as file BACKUP1.MAX
+Wed Feb 04 18:44:42 Saved as file ~undo.max
+Wed Feb 04 18:45:07 Saved as file ~undo.max
+Wed Feb 04 18:45:14 Saved as file ~undo.max
+Wed Feb 04 18:45:19 Saved as file ~undo.max
+Wed Feb 04 18:45:23 Saved as file ~undo.max
+Wed Feb 04 18:45:24 Saved as file ~undo.max
+Wed Feb 04 18:45:29 Saved as file ~undo.max
+Wed Feb 04 18:45:36 Saved as file ~undo.max
+Wed Feb 04 18:45:39 Saved as file ~undo.max
+Wed Feb 04 18:45:54 Saved as file ~undo.max
+Wed Feb 04 18:46:07 Saved as file ~undo.max
+Wed Feb 04 18:46:10 Saved as file ~undo.max
+Wed Feb 04 18:46:29 Saved as file ~undo.max
+Wed Feb 04 18:46:39 Saved as file ~undo.max
+Wed Feb 04 18:46:43 Saved as file ~undo.max
+Wed Feb 04 18:47:19 Saved as file ~undo.max
+Wed Feb 04 18:47:26 Saved as file ~undo.max
+Wed Feb 04 18:47:41 Saved as file ~undo.max
+Wed Feb 04 18:48:06 Saved as file ~undo.max
+Wed Feb 04 18:48:20 Saved as file ~undo.max
+Wed Feb 04 18:48:25 Saved as file ~undo.max
+Wed Feb 04 18:48:50 Saved as file ~undo.max
+Wed Feb 04 18:48:52 Saved as file ~undo.max
+Wed Feb 04 18:49:00 Saved as file ~undo.max
+Wed Feb 04 18:49:21 Saved as file ~undo.max
+Wed Feb 04 18:49:26 Saved as file ~undo.max
+Wed Feb 04 18:49:49 Saved as file ~undo.max
+Wed Feb 04 18:49:56 Saved as file BACKUP1.MAX
+Wed Feb 04 18:50:02 Saved as file ~undo.max
+Wed Feb 04 18:50:14 Saved as file ~undo.max
+Wed Feb 04 18:50:24 Saved as file ~undo.max
+Wed Feb 04 18:50:26 Saved as file ~undo.max
+Wed Feb 04 18:54:43 Saved as file ~undo.max
+Wed Feb 04 18:55:24 Saved as file ~undo.max
+Wed Feb 04 18:56:57 Saved as file ~undo.max
+Wed Feb 04 18:57:06 Saved as file ~undo.max
+Wed Feb 04 18:57:22 Saved as file ~undo.max
+Wed Feb 04 18:57:52 Saved as file ~undo.max
+Wed Feb 04 18:58:00 Saved as file ~undo.max
+Wed Feb 04 18:58:03 Saved as file ~undo.max
+Wed Feb 04 18:58:11 Saved as file ~undo.max
+Wed Feb 04 18:58:14 Saved as file ~undo.max
+Wed Feb 04 18:58:27 Saved as file ~undo.max
+Wed Feb 04 18:58:44 Saved as file ~undo.max
+Wed Feb 04 18:58:46 Saved as file ~undo.max
+Wed Feb 04 18:58:49 Saved as file ~undo.max
+Wed Feb 04 18:58:51 Saved as file ~undo.max
+Wed Feb 04 18:58:54 Saved as file ~undo.max
+Wed Feb 04 18:59:14 Saved as file ~undo.max
+Wed Feb 04 18:59:37 Saved as file ~undo.max
+Wed Feb 04 18:59:43 Saved as file ~undo.max
+Wed Feb 04 18:59:50 Saved as file ~undo.max
+Wed Feb 04 18:59:56 Saved as file BACKUP1.MAX
+Wed Feb 04 19:00:19 Saved as file ~undo.max
+Wed Feb 04 19:00:22 Saved as file ~undo.max
+Wed Feb 04 19:00:25 Saved as file ~undo.max
+Wed Feb 04 19:00:27 Saved as file ~undo.max
+Wed Feb 04 19:00:30 Saved as file ~undo.max
+Wed Feb 04 19:00:39 Saved as file ~undo.max
+Wed Feb 04 19:01:09 Saved as file ~undo.max
+Wed Feb 04 19:01:15 Saved as file ~undo.max
+Wed Feb 04 19:01:19 Saved as file ~undo.max
+Wed Feb 04 19:01:21 Saved as file ~undo.max
+Wed Feb 04 19:01:23 Saved as file ~undo.max
+Wed Feb 04 19:01:28 Saved as file ~undo.max
+Wed Feb 04 19:01:31 Saved as file ~undo.max
+Wed Feb 04 19:01:34 Saved as file ~undo.max
+Wed Feb 04 19:01:36 Saved as file ~undo.max
+Wed Feb 04 19:01:38 Saved as file ~undo.max
+Wed Feb 04 19:01:41 Saved as file ~undo.max
+Wed Feb 04 19:01:43 Saved as file ~undo.max
+Wed Feb 04 19:01:47 Saved as file ~undo.max
+Wed Feb 04 19:01:50 Saved as file ~undo.max
+Wed Feb 04 19:01:53 Saved as file ~undo.max
+Wed Feb 04 19:02:01 Saved as file ~undo.max
+Wed Feb 04 19:02:04 Saved as file ~undo.max
+Wed Feb 04 19:02:07 Saved as file ~undo.max
+Wed Feb 04 19:02:12 Saved as file ~undo.max
+Wed Feb 04 19:02:14 Saved as file ~undo.max
+Wed Feb 04 19:02:17 Saved as file ~undo.max
+Wed Feb 04 19:02:19 Saved as file ~undo.max
+Wed Feb 04 19:02:21 Saved as file ~undo.max
+Wed Feb 04 19:02:26 Saved as file ~undo.max
+Wed Feb 04 19:02:30 Saved as file ~undo.max
+Wed Feb 04 19:02:32 Saved as file ~undo.max
+Wed Feb 04 19:02:36 Saved as file ~undo.max
+Wed Feb 04 19:02:41 Saved as file ~undo.max
+Wed Feb 04 19:02:43 Saved as file ~undo.max
+Wed Feb 04 19:02:45 Saved as file ~undo.max
+Wed Feb 04 19:02:59 Saved as file ~undo.max
+Wed Feb 04 19:03:07 Saved as file ~undo.max
+Wed Feb 04 19:03:11 Saved as file ~undo.max
+Wed Feb 04 19:03:13 Saved as file ~undo.max
+Wed Feb 04 19:03:15 Saved as file ~undo.max
+Wed Feb 04 19:03:17 Saved as file ~undo.max
+Wed Feb 04 19:03:19 Saved as file ~undo.max
+Wed Feb 04 19:03:22 Saved as file ~undo.max
+Wed Feb 04 19:03:25 Saved as file ~undo.max
+Wed Feb 04 19:03:28 Saved as file ~undo.max
+Wed Feb 04 19:03:31 Saved as file ~undo.max
+Wed Feb 04 19:03:33 Saved as file ~undo.max
+Wed Feb 04 19:03:40 Saved as file ~undo.max
+Wed Feb 04 19:03:42 Saved as file ~undo.max
+Wed Feb 04 19:03:43 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 19:04:07 Saved as file BACKUP1.MAX
+Wed Feb 04 19:04:07 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 19:04:12 UserDiv from Layout.INI for AutoECO: 60
+Wed Feb 04 19:04:12 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-1.MAX
+Wed Feb 04 19:04:12 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\CLCC.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON050T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON085T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050F.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIN.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100B.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ECON100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\FBUS.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ISA.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\JUMPER.LLB
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LCON100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PC104.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCI.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON156T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PGA.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PLCC.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUAD.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUADB.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RELAY.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RF.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SBUS.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050F.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100F.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOJ.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\STIFF.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DISC.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_RAD.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TO.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Wed Feb 04 19:04:12 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Feb 04 19:04:17 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-2.MAX
+Wed Feb 04 19:04:17 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-2.MAX
+Wed Feb 04 19:04:26 Saved as file ~undo.max
+Wed Feb 04 19:04:38 Saved as file ~undo.max
+Wed Feb 04 19:07:41 Saved as file BACKUP1.MAX
+Wed Feb 04 19:07:41 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-2.MAX
+Wed Feb 04 19:07:44 UserDiv from Layout.INI for AutoECO: 60
+Wed Feb 04 19:07:44 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-2.MAX
+Wed Feb 04 19:07:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\CLCC.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON050T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON085T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050F.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIN.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100B.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ECON100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\FBUS.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ISA.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\JUMPER.LLB
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LCON100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PC104.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCI.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON156T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PGA.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PLCC.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUAD.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUADB.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RELAY.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RF.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SBUS.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050F.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100F.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOJ.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\STIFF.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DISC.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_RAD.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TO.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Wed Feb 04 19:07:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Feb 04 19:07:46 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:07:46 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:07:50 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:08:07 Saved as file ~undo.max
+Wed Feb 04 19:08:16 Saved as file ~undo.max
+Wed Feb 04 19:08:20 Saved as file ~undo.max
+Wed Feb 04 19:08:28 Saved as file ~undo.max
+Wed Feb 04 19:08:32 Saved as file ~undo.max
+Wed Feb 04 19:08:35 Saved as file ~undo.max
+Wed Feb 04 19:08:36 Saved as file ~undo.max
+Wed Feb 04 19:08:48 Saved as file ~undo.max
+Wed Feb 04 19:08:53 Saved as file ~undo.max
+Wed Feb 04 19:09:09 Saved as file ~undo.max
+Wed Feb 04 19:09:12 Saved as file ~undo.max
+Wed Feb 04 19:09:29 Saved as file ~undo.max
+Wed Feb 04 19:09:37 Saved as file ~undo.max
+Wed Feb 04 19:10:23 Saved as file ~undo.max
+Wed Feb 04 19:10:38 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:11:27 Saved as file BACKUP1.MAX
+Wed Feb 04 19:12:12 Saved as file BACKUP1.MAX
+Wed Feb 04 19:12:12 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:12:14 UserDiv from Layout.INI for AutoECO: 60
+Wed Feb 04 19:12:14 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-3.MAX
+Wed Feb 04 19:12:14 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\CLCC.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON050T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON085T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050F.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIN.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100B.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ECON100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\FBUS.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ISA.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\JUMPER.LLB
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LCON100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PC104.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCI.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON156T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PGA.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PLCC.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUAD.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUADB.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RELAY.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RF.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SBUS.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050F.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100F.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOJ.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\STIFF.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DISC.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_RAD.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TO.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Wed Feb 04 19:12:14 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Feb 04 19:12:15 Loaded file C:\CADENCE\SPB_16.2\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Feb 04 19:12:15 Loaded file C:\CADENCE\SPB_16.2\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Feb 04 19:12:17 Loaded file C:\CADENCE\SPB_16.2\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Feb 04 19:12:29 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 19:12:31 Loaded file C:\CADENCE\SPB_16.2\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Feb 04 19:12:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Wed Feb 04 19:12:34 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Wed Feb 04 19:12:34 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Wed Feb 04 19:12:42 Saved as file ~undo.max
+Wed Feb 04 19:13:01 Saved as file ~undo.max
+Wed Feb 04 19:13:14 Saved as file ~undo.max
+Wed Feb 04 19:13:18 Saved as file ~undo.max
+Wed Feb 04 19:13:22 Saved as file ~undo.max
+Wed Feb 04 19:13:23 Saved as file ~undo.max
+Wed Feb 04 19:13:49 Saved as file ~undo.max
+Wed Feb 04 19:14:12 Saved as file ~undo.max
+Wed Feb 04 19:14:17 Saved as file ~undo.max
+Wed Feb 04 19:16:13 Saved as file ~undo.max
+Wed Feb 04 19:16:14 Saved as file ~undo.max
+Wed Feb 04 19:16:30 Saved as file ~undo.max
+Wed Feb 04 19:16:44 Saved as file ~undo.max
+Wed Feb 04 19:16:48 Saved as file ~undo.max
+Wed Feb 04 19:16:53 Saved as file ~undo.max
+Wed Feb 04 19:16:57 Saved as file ~undo.max
+Wed Feb 04 19:17:04 Saved as file ~undo.max
+Wed Feb 04 19:22:27 Saved as file BACKUP1.MAX
+Wed Feb 04 19:22:48 Saved as file ~undo.max
+Wed Feb 04 19:22:53 Saved as file ~undo.max
+Wed Feb 04 19:22:55 Saved as file ~undo.max
+Wed Feb 04 19:23:00 Saved as file ~undo.max
+Wed Feb 04 19:23:24 Saved as file ~undo.max
+Wed Feb 04 19:23:28 Saved as file ~undo.max
+Wed Feb 04 19:23:32 Saved as file ~undo.max
+Wed Feb 04 19:23:34 Saved as file ~undo.max
+Wed Feb 04 19:23:37 Saved as file ~undo.max
+Wed Feb 04 19:23:41 Saved as file ~undo.max
+Wed Feb 04 19:23:43 Saved as file ~undo.max
+Wed Feb 04 19:23:45 Saved as file ~undo.max
+Wed Feb 04 19:23:57 Saved as file ~undo.max
+Wed Feb 04 19:24:00 Saved as file ~undo.max
+Wed Feb 04 19:24:06 Saved as file ~undo.max
+Wed Feb 04 19:24:10 Saved as file ~undo.max
+Wed Feb 04 19:24:15 Saved as file ~undo.max
+Wed Feb 04 19:24:19 Saved as file ~undo.max
+Wed Feb 04 19:24:21 Saved as file ~undo.max
+Wed Feb 04 19:25:42 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Wed Feb 04 19:25:45 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:25:45 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:25:46 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:25:48 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:31 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:26:31 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:26:31 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:26:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:41 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:42 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Wed Feb 04 19:26:43 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:44 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Wed Feb 04 19:26:50 Saved as file ~undo.max
+Wed Feb 04 19:26:59 Saved as file ~undo.max
+Wed Feb 04 19:27:13 Saved as file ~undo.max
+Wed Feb 04 19:28:02 Saved as file ~undo.max
+Wed Feb 04 19:28:21 Saved as file ~undo.max
+Wed Feb 04 19:29:47 Saved as file ~undo.max
+Wed Feb 04 19:29:53 Saved as file ~undo.max
+Wed Feb 04 19:32:57 Saved as file BACKUP1.MAX
+Wed Feb 04 19:42:58 Saved as file BACKUP1.MAX
+Wed Feb 04 19:47:58 Saved as file ~undo.max
+Wed Feb 04 19:48:09 Saved as file ~undo.max
+Wed Feb 04 19:48:32 Saved as file ~undo.max
+Wed Feb 04 19:49:44 Saved as file ~undo.max
+Wed Feb 04 19:52:00 Saved as file ~undo.max
+Wed Feb 04 19:52:06 Saved as file ~undo.max
+Wed Feb 04 19:52:58 Saved as file BACKUP1.MAX
+Wed Feb 04 19:53:39 Saved as file ~undo.max
+Wed Feb 04 19:54:44 Saved as file ~undo.max
+Wed Feb 04 19:57:29 Saved as file ~undo.max
+Wed Feb 04 19:57:56 Saved as file ~undo.max
+Wed Feb 04 19:58:27 Saved as file ~undo.max
+Wed Feb 04 20:00:34 Saved as file ~undo.max
+Wed Feb 04 20:00:59 Saved as file ~undo.max
+Wed Feb 04 20:02:58 Saved as file BACKUP1.MAX
+Wed Feb 04 20:04:06 Saved as file ~undo.max
+Wed Feb 04 20:04:15 Saved as file ~undo.max
+Wed Feb 04 20:04:23 Saved as file ~undo.max
+Wed Feb 04 20:04:33 Saved as file ~undo.max
+Wed Feb 04 20:04:41 Saved as file ~undo.max
+Wed Feb 04 20:04:47 Saved as file ~undo.max
+Wed Feb 04 20:05:00 Saved as file ~undo.max
+Wed Feb 04 20:05:09 Saved as file ~undo.max
+Wed Feb 04 20:05:14 Saved as file ~undo.max
+Wed Feb 04 20:05:18 Saved as file ~undo.max
+Wed Feb 04 20:05:22 Saved as file ~undo.max
+Wed Feb 04 20:05:27 Saved as file ~undo.max
+Wed Feb 04 20:05:33 Saved as file ~undo.max
+Wed Feb 04 20:05:36 Saved as file ~undo.max
+Wed Feb 04 20:05:38 Saved as file ~undo.max
+Wed Feb 04 20:05:39 Saved as file ~undo.max
+Wed Feb 04 20:05:44 Saved as file ~undo.max
+Wed Feb 04 20:05:46 Saved as file ~undo.max
+Wed Feb 04 20:05:48 Saved as file ~undo.max
+Wed Feb 04 20:05:51 Saved as file ~undo.max
+Wed Feb 04 20:05:55 Saved as file ~undo.max
+Wed Feb 04 20:05:58 Saved as file ~undo.max
+Wed Feb 04 20:06:15 Saved as file ~undo.max
+Wed Feb 04 20:06:31 Saved as file ~undo.max
+Wed Feb 04 20:11:43 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Thu Feb 05 10:13:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:09 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:11 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:13:13 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:30 Saved as file ~undo.max
+Thu Feb 05 10:13:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:32 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:33 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:13:35 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:13:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:13:44 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:13:44 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:15:11 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:15:11 Saved as file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:15:11 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:15:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:15:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:15:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:15:19 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:15:20 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:15:25 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:15:32 Saved as file ~undo.max
+Thu Feb 05 10:20:16 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:16 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:16 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:16 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:22 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:20:26 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Thu Feb 05 10:20:28 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:29 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 10:20:31 Saved as file ~undo.max
+Thu Feb 05 10:22:05 Saved as file BACKUP1.MAX
+Thu Feb 05 10:25:49 Saved as file BACKUP1.MAX
+Thu Feb 05 10:25:49 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Thu Feb 05 10:25:53 UserDiv from Layout.INI for AutoECO: 60
+Thu Feb 05 10:25:53 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+Thu Feb 05 10:25:53 Loaded file H:\PROJECTS\MYPROJECTS\LIBRARY\MY_3.LLB
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BCON156T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\BGA.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\CLCC.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON050T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DCON085T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050F.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIMM050T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIN.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100B.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DIP100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\DSUBT_HD.LLB
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ECON100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\FBUS.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ISA.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\JUMPER.LLB
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LAYOUT.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\LCON100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PC104.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCI.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PCON156T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PGA.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\PLCC.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUAD.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\QUADB.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RELAY.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\RF.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SBUS.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050F.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM050T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100F.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIMM100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SIP.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SM.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOG.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\SOJ.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\STIFF.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TELE.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_AXIAL.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CAP_P.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_CYLND.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DIODE.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_DISC.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TM_RAD.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TO.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\TRAINING.LLB
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\VRES.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\WCON100T.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\XT.llb
+Thu Feb 05 10:25:53 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\library\ZIGZAG.llb
+Thu Feb 05 10:25:55 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 10:25:55 Loaded file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 10:26:38 Saved as file ~undo.max
+Thu Feb 05 10:26:43 Saved as file ~undo.max
+Thu Feb 05 10:26:50 Saved as file ~undo.max
+Thu Feb 05 10:26:53 Saved as file ~undo.max
+Thu Feb 05 10:26:55 Saved as file ~undo.max
+Thu Feb 05 10:27:03 Saved as file ~undo.max
+Thu Feb 05 10:27:15 Saved as file ~undo.max
+Thu Feb 05 10:27:20 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 10:27:23 Saved as file ~undo.max
+Thu Feb 05 10:27:48 Saved as file ~undo.max
+Thu Feb 05 10:28:34 Saved as file ~undo.max
+Thu Feb 05 10:29:27 Saved as file ~undo.max
+Thu Feb 05 10:31:39 Saved as file ~undo.max
+Thu Feb 05 10:31:47 Saved as file ~undo.max
+Thu Feb 05 10:31:52 Saved as file ~undo.max
+Thu Feb 05 10:31:55 Saved as file ~undo.max
+Thu Feb 05 10:31:59 Saved as file ~undo.max
+Thu Feb 05 10:32:03 Saved as file ~undo.max
+Thu Feb 05 10:32:09 Saved as file ~undo.max
+Thu Feb 05 10:32:13 Saved as file ~undo.max
+Thu Feb 05 10:32:15 Saved as file ~undo.max
+Thu Feb 05 10:32:32 Saved as file ~undo.max
+Thu Feb 05 10:32:34 Saved as file ~undo.max
+Thu Feb 05 10:33:05 Saved as file BACKUP1.MAX
+Thu Feb 05 10:33:23 Saved as file ~undo.max
+Thu Feb 05 10:33:28 Saved as file ~undo.max
+Thu Feb 05 10:33:30 Saved as file ~undo.max
+Thu Feb 05 10:33:49 Saved as file ~undo.max
+Thu Feb 05 10:34:03 Saved as file ~undo.max
+Thu Feb 05 10:34:07 Saved as file ~undo.max
+Thu Feb 05 10:34:08 Saved as file ~undo.max
+Thu Feb 05 10:34:12 Saved as file ~undo.max
+Thu Feb 05 10:34:23 Saved as file ~undo.max
+Thu Feb 05 10:34:25 Saved as file ~undo.max
+Thu Feb 05 10:34:30 Saved as file ~undo.max
+Thu Feb 05 10:34:34 Saved as file ~undo.max
+Thu Feb 05 10:34:36 Saved as file ~undo.max
+Thu Feb 05 10:36:08 Saved as file ~undo.max
+Thu Feb 05 10:36:09 Saved as file ~undo.max
+Thu Feb 05 10:36:20 Saved as file ~undo.max
+Thu Feb 05 10:36:26 Saved as file ~undo.max
+Thu Feb 05 10:36:28 Saved as file ~undo.max
+Thu Feb 05 10:36:41 Saved as file ~undo.max
+Thu Feb 05 10:36:42 Saved as file ~undo.max
+Thu Feb 05 10:37:00 Saved as file ~undo.max
+Thu Feb 05 10:37:51 Saved as file ~undo.max
+Thu Feb 05 10:37:58 Saved as file ~undo.max
+Thu Feb 05 10:38:11 Saved as file ~undo.max
+Thu Feb 05 10:38:14 Saved as file ~undo.max
+Thu Feb 05 10:38:17 Saved as file ~undo.max
+Thu Feb 05 10:38:30 Saved as file ~undo.max
+Thu Feb 05 10:38:32 Saved as file ~undo.max
+Thu Feb 05 10:38:47 Saved as file ~undo.max
+Thu Feb 05 10:38:48 Saved as file ~undo.max
+Thu Feb 05 10:39:23 Saved as file ~undo.max
+Thu Feb 05 10:39:31 Saved as file ~undo.max
+Thu Feb 05 10:39:38 Saved as file ~undo.max
+Thu Feb 05 10:39:40 Saved as file ~undo.max
+Thu Feb 05 10:40:44 Saved as file ~undo.max
+Thu Feb 05 10:41:00 Saved as file ~undo.max
+Thu Feb 05 10:41:04 Saved as file ~undo.max
+Thu Feb 05 10:41:08 Saved as file ~undo.max
+Thu Feb 05 10:41:11 Saved as file ~undo.max
+Thu Feb 05 10:41:14 Saved as file ~undo.max
+Thu Feb 05 10:41:16 Saved as file ~undo.max
+Thu Feb 05 10:41:22 Saved as file ~undo.max
+Thu Feb 05 10:41:29 Saved as file ~undo.max
+Thu Feb 05 10:41:55 Saved as file ~undo.max
+Thu Feb 05 10:41:57 Saved as file ~undo.max
+Thu Feb 05 10:42:09 Saved as file ~undo.max
+Thu Feb 05 10:42:11 Saved as file ~undo.max
+Thu Feb 05 10:42:20 Saved as file ~undo.max
+Thu Feb 05 10:42:24 Saved as file ~undo.max
+Thu Feb 05 10:42:28 Saved as file ~undo.max
+Thu Feb 05 10:42:31 Saved as file ~undo.max
+Thu Feb 05 10:42:35 Saved as file ~undo.max
+Thu Feb 05 10:42:37 Saved as file ~undo.max
+Thu Feb 05 10:42:42 Saved as file ~undo.max
+Thu Feb 05 10:42:45 Saved as file ~undo.max
+Thu Feb 05 10:42:46 Saved as file ~undo.max
+Thu Feb 05 10:43:05 Saved as file BACKUP1.MAX
+Thu Feb 05 10:46:09 Saved as file ~undo.max
+Thu Feb 05 10:46:41 Saved as file ~undo.max
+Thu Feb 05 10:47:09 Saved as file ~undo.max
+Thu Feb 05 10:47:12 Saved as file ~undo.max
+Thu Feb 05 10:47:18 Saved as file ~undo.max
+Thu Feb 05 10:48:37 Saved as file ~undo.max
+Thu Feb 05 10:49:05 Saved as file ~undo.max
+Thu Feb 05 10:49:08 Saved as file ~undo.max
+Thu Feb 05 10:49:15 Saved as file ~undo.max
+Thu Feb 05 10:49:21 Saved as file ~undo.max
+Thu Feb 05 10:49:55 Saved as file ~undo.max
+Thu Feb 05 10:49:56 Saved as file ~undo.max
+Thu Feb 05 10:50:05 Saved as file ~undo.max
+Thu Feb 05 10:50:08 Saved as file ~undo.max
+Thu Feb 05 10:50:17 Saved as file ~undo.max
+Thu Feb 05 10:50:25 Saved as file ~undo.max
+Thu Feb 05 10:50:29 Saved as file ~undo.max
+Thu Feb 05 10:50:36 Saved as file ~undo.max
+Thu Feb 05 10:50:40 Saved as file ~undo.max
+Thu Feb 05 10:50:42 Saved as file ~undo.max
+Thu Feb 05 10:50:43 Saved as file ~undo.max
+Thu Feb 05 10:51:11 Saved as file ~undo.max
+Thu Feb 05 10:51:22 Saved as file ~undo.max
+Thu Feb 05 10:51:31 Saved as file ~undo.max
+Thu Feb 05 10:51:43 Saved as file ~undo.max
+Thu Feb 05 10:51:54 Saved as file ~undo.max
+Thu Feb 05 10:51:59 Saved as file ~undo.max
+Thu Feb 05 10:53:35 Saved as file BACKUP1.MAX
+Thu Feb 05 11:03:36 Saved as file BACKUP1.MAX
+Thu Feb 05 11:10:56 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 11:13:36 Saved as file BACKUP1.MAX
+Thu Feb 05 11:23:36 Saved as file BACKUP1.MAX
+Thu Feb 05 11:30:06 Saved as file ~undo.max
+Thu Feb 05 11:30:10 Saved as file ~undo.max
+Thu Feb 05 11:30:10 Saved as file ~undo.max
+Thu Feb 05 11:30:32 Saved as file ~undo.max
+Thu Feb 05 11:30:45 Saved as file ~undo.max
+Thu Feb 05 11:30:48 Saved as file ~undo.max
+Thu Feb 05 11:30:54 Saved as file ~undo.max
+Thu Feb 05 11:32:40 Saved as file ~undo.max
+Thu Feb 05 11:33:37 Saved as file BACKUP1.MAX
+Thu Feb 05 11:34:59 Saved as file ~undo.max
+Thu Feb 05 11:35:09 Saved as file ~undo.max
+Thu Feb 05 11:35:14 Saved as file ~undo.max
+Thu Feb 05 11:35:25 Saved as file ~undo.max
+Thu Feb 05 11:35:26 Saved as file ~undo.max
+Thu Feb 05 11:35:39 Saved as file ~undo.max
+Thu Feb 05 11:35:42 Saved as file ~undo.max
+Thu Feb 05 11:35:43 Saved as file ~undo.max
+Thu Feb 05 11:35:50 Saved as file ~undo.max
+Thu Feb 05 11:36:03 Saved as file ~undo.max
+Thu Feb 05 11:36:08 Saved as file ~undo.max
+Thu Feb 05 11:36:15 Saved as file ~undo.max
+Thu Feb 05 11:36:18 Saved as file ~undo.max
+Thu Feb 05 11:36:22 Saved as file ~undo.max
+Thu Feb 05 11:36:24 Saved as file ~undo.max
+Thu Feb 05 11:36:25 Saved as file ~undo.max
+Thu Feb 05 11:36:27 Saved as file ~undo.max
+Thu Feb 05 11:36:29 Saved as file ~undo.max
+Thu Feb 05 11:36:32 Saved as file ~undo.max
+Thu Feb 05 11:37:31 Saved as file ~undo.max
+Thu Feb 05 11:37:38 Saved as file ~undo.max
+Thu Feb 05 11:37:39 Saved as file ~undo.max
+Thu Feb 05 11:37:50 Saved as file ~undo.max
+Thu Feb 05 11:39:24 Saved as file ~undo.max
+Thu Feb 05 11:44:07 Saved as file BACKUP1.MAX
+Thu Feb 05 11:44:22 Saved as file ~undo.max
+Thu Feb 05 11:44:43 Saved as file ~undo.max
+Thu Feb 05 11:45:09 Saved as file ~undo.max
+Thu Feb 05 11:45:17 Saved as file ~undo.max
+Thu Feb 05 11:45:38 Saved as file ~undo.max
+Thu Feb 05 11:45:41 Saved as file ~undo.max
+Thu Feb 05 11:51:12 Saved as file ~undo.max
+Thu Feb 05 11:51:32 Saved as file ~undo.max
+Thu Feb 05 11:52:36 Saved as file ~undo.max
+Thu Feb 05 11:52:50 Saved as file ~undo.max
+Thu Feb 05 11:54:07 Saved as file BACKUP1.MAX
+Thu Feb 05 11:56:51 Saved as file ~undo.max
+Thu Feb 05 11:57:22 Saved as file ~undo.max
+Thu Feb 05 11:57:30 Saved as file ~undo.max
+Thu Feb 05 11:57:34 Saved as file ~undo.max
+Thu Feb 05 11:57:39 Saved as file ~undo.max
+Thu Feb 05 11:57:46 Saved as file ~undo.max
+Thu Feb 05 11:58:04 Saved as file ~undo.max
+Thu Feb 05 11:58:07 Saved as file ~undo.max
+Thu Feb 05 11:58:08 Saved as file ~undo.max
+Thu Feb 05 11:58:12 Saved as file ~undo.max
+Thu Feb 05 11:58:15 Saved as file ~undo.max
+Thu Feb 05 11:58:46 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 11:59:15 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 11:59:37 Saved as file ~undo.max
+Thu Feb 05 11:59:38 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:00:32 Saved as file ~undo.max
+Thu Feb 05 12:00:39 Saved as file ~undo.max
+Thu Feb 05 12:00:43 Saved as file ~undo.max
+Thu Feb 05 12:00:48 Saved as file ~undo.max
+Thu Feb 05 12:00:50 Saved as file ~undo.max
+Thu Feb 05 12:00:51 Saved as file ~undo.max
+Thu Feb 05 12:00:53 Saved as file ~undo.max
+Thu Feb 05 12:00:55 Saved as file ~undo.max
+Thu Feb 05 12:00:57 Saved as file ~undo.max
+Thu Feb 05 12:01:03 Saved as file ~undo.max
+Thu Feb 05 12:01:05 Saved as file ~undo.max
+Thu Feb 05 12:01:08 Saved as file ~undo.max
+Thu Feb 05 12:01:21 Saved as file ~undo.max
+Thu Feb 05 12:01:29 Saved as file ~undo.max
+Thu Feb 05 12:01:31 Saved as file ~undo.max
+Thu Feb 05 12:01:44 Saved as file ~undo.max
+Thu Feb 05 12:01:48 Saved as file ~undo.max
+Thu Feb 05 12:02:47 Saved as file ~undo.max
+Thu Feb 05 12:03:33 Saved as file ~undo.max
+Thu Feb 05 12:03:34 Saved as file ~undo.max
+Thu Feb 05 12:03:36 Saved as file ~undo.max
+Thu Feb 05 12:03:39 Saved as file ~undo.max
+Thu Feb 05 12:03:41 Saved as file ~undo.max
+Thu Feb 05 12:03:45 Saved as file ~undo.max
+Thu Feb 05 12:03:48 Saved as file ~undo.max
+Thu Feb 05 12:04:56 Saved as file ~undo.max
+Thu Feb 05 12:04:57 Saved as file ~undo.max
+Thu Feb 05 12:05:03 Saved as file ~undo.max
+Thu Feb 05 12:05:06 Saved as file ~undo.max
+Thu Feb 05 12:05:07 Saved as file BACKUP1.MAX
+Thu Feb 05 12:05:09 Saved as file ~undo.max
+Thu Feb 05 12:05:10 Saved as file ~undo.max
+Thu Feb 05 12:05:11 Saved as file ~undo.max
+Thu Feb 05 12:05:13 Saved as file ~undo.max
+Thu Feb 05 12:05:17 Saved as file ~undo.max
+Thu Feb 05 12:05:22 Saved as file ~undo.max
+Thu Feb 05 12:05:24 Saved as file ~undo.max
+Thu Feb 05 12:05:25 Saved as file ~undo.max
+Thu Feb 05 12:05:28 Saved as file ~undo.max
+Thu Feb 05 12:05:42 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:05:43 Saved as file ~undo.max
+Thu Feb 05 12:07:10 Saved as file ~undo.max
+Thu Feb 05 12:08:04 Saved as file ~undo.max
+Thu Feb 05 12:08:05 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:09:15 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:09:59 Saved as file ~undo.max
+Thu Feb 05 12:10:46 Saved as file ~undo.max
+Thu Feb 05 12:10:53 Saved as file ~undo.max
+Thu Feb 05 12:10:57 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:13:05 Saved as file ~undo.max
+Thu Feb 05 12:13:51 Saved as file ~undo.max
+Thu Feb 05 12:14:01 Saved as file ~undo.max
+Thu Feb 05 12:15:08 Saved as file BACKUP1.MAX
+Thu Feb 05 12:15:16 Saved as file ~undo.max
+Thu Feb 05 12:15:54 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:15:57 Saved as file ~undo.max
+Thu Feb 05 12:16:25 Saved as file ~undo.max
+Thu Feb 05 12:16:34 Saved as file ~undo.max
+Thu Feb 05 12:17:16 Saved as file ~undo.max
+Thu Feb 05 12:17:27 Saved as file ~undo.max
+Thu Feb 05 12:18:25 Saved as file ~undo.max
+Thu Feb 05 12:19:14 Saved as file ~undo.max
+Thu Feb 05 12:19:43 Saved as file ~undo.max
+Thu Feb 05 12:19:53 Saved as file ~undo.max
+Thu Feb 05 12:21:26 Saved as file ~undo.max
+Thu Feb 05 12:21:29 Saved as file ~undo.max
+Thu Feb 05 12:22:01 Saved as file ~undo.max
+Thu Feb 05 12:22:14 Saved as file ~undo.max
+Thu Feb 05 12:22:23 Saved as file ~undo.max
+Thu Feb 05 12:23:02 Saved as file ~undo.max
+Thu Feb 05 12:23:09 Saved as file ~undo.max
+Thu Feb 05 12:23:16 Saved as file ~undo.max
+Thu Feb 05 12:23:28 Saved as file ~undo.max
+Thu Feb 05 12:23:30 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:24:12 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:24:47 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:25:03 Saved as file ~undo.max
+Thu Feb 05 12:25:32 Saved as file ~undo.max
+Thu Feb 05 12:25:38 Saved as file BACKUP1.MAX
+Thu Feb 05 12:35:38 Saved as file BACKUP1.MAX
+Thu Feb 05 12:37:54 Saved as file ~undo.max
+Thu Feb 05 12:40:37 Saved as file ~undo.max
+Thu Feb 05 12:41:03 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 12:41:03 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 12:41:05 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 12:41:07 Loaded file C:\Cadence\SPB_16.2\tools\Layout_Plus\data\template.imp
+Thu Feb 05 12:41:10 Saved as file ~undo.max
+Thu Feb 05 12:41:28 Saved as file ~undo.max
+Thu Feb 05 12:41:32 Saved as file ~undo.max
+Thu Feb 05 12:41:42 Saved as file ~undo.max
+Thu Feb 05 12:41:44 Saved as file ~undo.max
+Thu Feb 05 12:41:56 Saved as file ~undo.max
+Thu Feb 05 12:42:11 Saved as file ~undo.max
+Thu Feb 05 12:42:15 Saved as file ~undo.max
+Thu Feb 05 12:42:19 Saved as file ~undo.max
+Thu Feb 05 12:43:37 Saved as file ~undo.max
+Thu Feb 05 12:43:49 Saved as file ~undo.max
+Thu Feb 05 12:43:51 Saved as file ~undo.max
+Thu Feb 05 12:43:57 Saved as file ~undo.max
+Thu Feb 05 12:44:08 Saved as file ~undo.max
+Thu Feb 05 12:44:19 Saved as file ~undo.max
+Thu Feb 05 12:44:22 Saved as file ~undo.max
+Thu Feb 05 12:44:26 Saved as file ~undo.max
+Thu Feb 05 12:44:41 Saved as file ~undo.max
+Thu Feb 05 12:44:55 Saved as file ~undo.max
+Thu Feb 05 12:45:02 Saved as file ~undo.max
+Thu Feb 05 12:45:05 Saved as file ~undo.max
+Thu Feb 05 12:45:06 Saved as file ~undo.max
+Thu Feb 05 12:45:20 Saved as file ~undo.max
+Thu Feb 05 12:45:39 Saved as file ~undo.max
+Thu Feb 05 12:46:05 Saved as file ~undo.max
+Thu Feb 05 12:46:36 Saved as file ~undo.max
+Thu Feb 05 12:46:56 Saved as file ~undo.max
+Thu Feb 05 12:47:19 Saved as file ~undo.max
+Thu Feb 05 12:47:33 Saved as file ~undo.max
+Thu Feb 05 12:47:39 Saved as file BACKUP1.MAX
+Thu Feb 05 12:47:40 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:47:46 Saved as file ~undo.max
+Thu Feb 05 12:47:48 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:49:00 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:49:17 Saved as file ~undo.max
+Thu Feb 05 12:49:18 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:49:28 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX
+Thu Feb 05 12:57:39 Saved as file BACKUP1.MAX
+Thu Feb 05 13:07:39 Saved as file BACKUP1.MAX
+Thu Feb 05 13:20:40 Saved as file BACKUP1.MAX
+Thu Feb 05 13:30:40 Saved as file BACKUP1.MAX
+Thu Feb 05 13:40:40 Saved as file BACKUP1.MAX
+Thu Feb 05 13:50:41 Saved as file BACKUP1.MAX
+Thu Feb 05 14:00:41 Saved as file BACKUP1.MAX
+Thu Feb 05 14:10:41 Saved as file BACKUP1.MAX
+Thu Feb 05 14:20:41 Saved as file BACKUP1.MAX
+Thu Feb 05 14:30:42 Saved as file BACKUP1.MAX
+Thu Feb 05 14:40:42 Saved as file BACKUP1.MAX
+Thu Feb 05 14:53:12 Saved as file BACKUP1.MAX
+Thu Feb 05 15:05:13 Saved as file BACKUP1.MAX
+Thu Feb 05 15:16:43 Saved as file BACKUP1.MAX
+Thu Feb 05 15:17:00 Saved as file ~undo.max
+Thu Feb 05 15:19:18 Saved as file ~undo.max
+Thu Feb 05 15:26:43 Saved as file BACKUP1.MAX
+Thu Feb 05 15:36:44 Saved as file BACKUP1.MAX
+Thu Feb 05 15:46:44 Saved as file BACKUP1.MAX
+Thu Feb 05 15:56:44 Saved as file BACKUP1.MAX
+Thu Feb 05 16:06:44 Saved as file BACKUP1.MAX
+Thu Feb 05 16:16:45 Saved as file BACKUP1.MAX
+Thu Feb 05 16:26:45 Saved as file BACKUP1.MAX
+Thu Feb 05 16:36:45 Saved as file BACKUP1.MAX
+Thu Feb 05 16:46:46 Saved as file BACKUP1.MAX
+Thu Feb 05 16:56:46 Saved as file BACKUP1.MAX
+Thu Feb 05 17:06:46 Saved as file BACKUP1.MAX
+Thu Feb 05 17:16:47 Saved as file BACKUP1.MAX
+Thu Feb 05 17:26:47 Saved as file BACKUP1.MAX
+Thu Feb 05 17:36:47 Saved as file BACKUP1.MAX
+Thu Feb 05 17:46:47 Saved as file BACKUP1.MAX
+Thu Feb 05 17:56:48 Saved as file BACKUP1.MAX
+Thu Feb 05 18:06:48 Saved as file BACKUP1.MAX
+Thu Feb 05 18:16:48 Saved as file BACKUP1.MAX
+Thu Feb 05 18:26:49 Saved as file BACKUP1.MAX
+Thu Feb 05 18:36:49 Saved as file BACKUP1.MAX
+Thu Feb 05 18:46:49 Saved as file BACKUP1.MAX
+Thu Feb 05 18:56:49 Saved as file BACKUP1.MAX
+Thu Feb 05 19:06:50 Saved as file BACKUP1.MAX
+Thu Feb 05 19:16:50 Saved as file BACKUP1.MAX
+Thu Feb 05 19:26:50 Saved as file BACKUP1.MAX
+Thu Feb 05 19:36:51 Saved as file BACKUP1.MAX
+Thu Feb 05 19:46:51 Saved as file BACKUP1.MAX
+Thu Feb 05 19:56:51 Saved as file BACKUP1.MAX
+Thu Feb 05 19:59:06 Saved as file H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-5.MAX

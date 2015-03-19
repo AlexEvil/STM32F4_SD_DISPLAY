@@ -1,0 +1,22 @@
+AutoECO Report
+FILE-A: H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD-4.MAX
+FILE-B: H:\PROJECTS\MYPROJECTS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component R42
+Adding component R43
+Adding component R44
+Adding component R45
+Adding net N34316
+Deleting R28.2 from net GND
+Adding R43.2 to net GND
+Adding R45.2 to net GND
+Deleting R28.1 from net VL-
+Adding R44.1 to net VL-
+Adding R42.1 to net VL-
+Adding R44.2 to net N34316
+Adding R45.1 to net N34316
+Adding R43.1 to net N34316
+Adding R42.2 to net N34316
+Deleting component R28
+*EOF*
+No errors found
