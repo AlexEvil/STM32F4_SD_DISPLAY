@@ -22,22 +22,18 @@ Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
 E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\Display.uvprojx
-Project File Date:  03/19/2015
+Project File Date:  03/22/2015
 
 <h2>Output:</h2>
 Build target 'Target'
+compiling main.cpp...
 compiling consol.cpp...
-..\src\consol.cpp(78): warning:  #177-D: variable "id" was declared but never referenced
-      int32_t id;
-..\src\consol.cpp(79): warning:  #177-D: variable "drive" was declared but never referenced
-      char drive[4];
-..\src\consol.cpp(45): warning:  #177-D: variable "cmd" was declared but never referenced
+..\src\consol.cpp(48): warning:  #177-D: variable "cmd" was declared but never referenced
   static const SCMD cmd[] =
-..\src\consol.cpp: 3 warnings, 0 errors
-compiling FS_Config.c...
+..\src\consol.cpp: 1 warning, 0 errors
 linking...
-Program Size: Code=77814 RO-data=3610 RW-data=180 ZI-data=44284  
-".\Objects\Display.axf" - 0 Error(s), 3 Warning(s).
+Program Size: Code=87686 RO-data=5078 RW-data=180 ZI-data=44404  
+".\Objects\Display.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -46,6 +42,7 @@ Package Vendor: ARM
                 ::CMSIS:RTOS:1.0 (API)
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: RTOS Version: 1.0
+   * Component: USART Version: 2.01
    * Component: SPI Version: 2.01
    * Component: CORE Version: 3.40.0
    * Component: Keil RTX Version: 4.75.0
@@ -71,7 +68,10 @@ Package Vendor: Keil
    * Component: PWR Version: 1.1.0
    * Component: RCC Version: 1.1.0
    * Component: SPI Version: 1.1.0
+   * Component: UART Version: 1.1.0
+   * Component: USART Version: 1.1.0
    * Component: SPI Version: 2.01
+   * Component: USART Version: 2.01
 
 <h2>Collection of Component include folders:</h2>
   E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE
@@ -86,6 +86,9 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ::CMSIS Driver:USART:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
 
    * Component: ::CMSIS Driver:SPI:2.01 (API)
       Include file:  CMSIS\Driver\Include\Driver_SPI.h
@@ -159,8 +162,17 @@ Package Vendor: Keil
    * Component: Keil::Device:STM32Cube HAL:SPI:1.1.0
       Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
+   * Component: Keil::Device:STM32Cube HAL:UART:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+   * Component: Keil::Device:STM32Cube HAL:USART:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
+
    * Component: Keil::CMSIS Driver:SPI:2.01
       Source file:   CMSIS\Driver\SPI_STM32F4xx.c
+
+   * Component: Keil::CMSIS Driver:USART:2.01
+      Source file:   CMSIS\Driver\USART_STM32F4xx.c
 </pre>
 </body>
 </html>

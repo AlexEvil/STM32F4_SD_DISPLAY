@@ -86,6 +86,8 @@ void MainSystemInit(void)
     }
     /// initialization uSD
     StorageInit();
+    /// initialization consol
+    ConsolInit();
     return;
 }
 ///-----------------------------------------------------------------------------
@@ -93,14 +95,18 @@ int main(void)
 {
     char text[] = "thise is new version board";	
     SD_CardInfo Info;
+    char cmd[] = "qwertgfdsa";
     ///-------------------------------------------------------------------------
     MainSystemInit();
     LedInit();
 	osDelay(500);
+    
+    
+//     printf("Hello, world!");
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
     
-        cmd[1];
+        ConsolTest(&cmd[0],10);
     
         if(StorageConnect() == false)
         {

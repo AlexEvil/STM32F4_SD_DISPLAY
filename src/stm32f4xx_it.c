@@ -174,7 +174,7 @@ void FMC_IRQHandler(void){while(1){}}
 void SDIO_IRQHandler(void){while(1){}}
 void TIM5_IRQHandler(void){while(1){}}
 void SPI3_IRQHandler(void){while(1){}}
-void UART4_IRQHandler(void){while(1){}}
+//void UART4_IRQHandler(void){while(1){}}
 void UART5_IRQHandler(void){while(1){}}
 void TIM6_DAC_IRQHandler(void){while(1){}}
 void TIM7_IRQHandler(void){while(1){}}

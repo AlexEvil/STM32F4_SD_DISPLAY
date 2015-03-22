@@ -3,9 +3,12 @@
 ///-----------------------------------------------------------------------------
 #include "consol.h"
 #include "sd_storage.h"
+#include "stm32f4xx_uart_io.h"
 ///-----------------------------------------------------------------------------
-static void cmd_help(char *par);
+//UART_HandleTypeDef ConsolHandle;
+///-----------------------------------------------------------------------------
 static void cmd_cid(char *par);
+static void cmd_help(char *par);
 ///-----------------------------------------------------------------------------
 /// Command definitions structure
 ///-----------------------------------------------------------------------------
@@ -91,7 +94,21 @@ static void cmd_cid(char *par)
     }
 }
 ///-----------------------------------------------------------------------------
-
+/**
+ *  @brief Display Command Syntax help
+ *  @param char*       - pointer to a line
+ *  @param int32_t     - count char iat current line
+ *  @return true/false - successful/failed
+ */
+void ConsolInit(void)
+{
+    UART_IO_Init();
+}
+///-----------------------------------------------------------------------------
+void ConsolTest(char* cmd,uint16_t length)
+{
+    UART_IO_Write((uint8_t *)cmd,length,1000);
+}
 
 
 

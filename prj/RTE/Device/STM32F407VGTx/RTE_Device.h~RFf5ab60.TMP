@@ -381,7 +381,7 @@
 
 // <e> UART4 (Universal asynchronous receiver transmitter) [Driver_USART4]
 // <i> Configuration settings for Driver_USART4 in component ::CMSIS Driver:USART
-#define RTE_UART4                       1
+#define RTE_UART4                       0
 
 //   <o> UART4_TX Pin <0=>PA0 <1=>PC10
 #define RTE_UART4_TX_ID                 0
