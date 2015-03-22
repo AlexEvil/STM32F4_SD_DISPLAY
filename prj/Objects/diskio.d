@@ -1,12 +1,14 @@
 .\objects\diskio.o: ..\fat\diskio.c
+.\objects\diskio.o: ..\fat\sd_diskio.h
+.\objects\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\diskio.o: ..\fat\ff_gen_drv.h
 .\objects\diskio.o: ..\fat\diskio.h
 .\objects\diskio.o: ..\fat\integer.h
-.\objects\diskio.o: ..\fat\ff_gen_drv.h
 .\objects\diskio.o: ..\fat\ff.h
 .\objects\diskio.o: ..\fat\ff_conf.h
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
-.\objects\diskio.o: .\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
-.\objects\diskio.o: E:\Projects\Electronics\Current\Display\AT050TN\GitHub\STM32F4_SD_DISPLAY\prj\RTE\RTE_Components.h
+.\objects\diskio.o: E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
+.\objects\diskio.o: E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\RTE_Components.h
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
@@ -30,4 +32,5 @@
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
 .\objects\diskio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h
 .\objects\diskio.o: ..\fat\stm32_bsp_sd.h
+.\objects\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\diskio.o: ..\fat\stm32f4xx_sd_io.h

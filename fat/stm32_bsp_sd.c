@@ -1,5 +1,7 @@
 ///-----------------------------------------------------------------------------
 #include "stm32_bsp_sd.h"
+#include "ff.h"
+#include "../src/sd_storage.h"
 ///-----------------------------------------------------------------------------
 #define SD_DUMMY_BYTE           0xFF
 #define SD_NO_RESPONSE_EXPECTED 0x80
@@ -14,22 +16,33 @@ static uint8_t SD_SendCmd(uint8_t Cmd, uint32_t Arg, uint8_t Crc, uint8_t Respon
 ///-----------------------------------------------------------------------------
 /**
  * @brief  Check SD Card Deterction
- * @param  None
- * @retval The SD Response: 
- *         - SD_PRESENT     : Card present
- *         - SD_NOT_PRESENT : Card no detect
+ * @param[in]  None
+ * @param[out] The SD Response: 
+ *              - SD_PRESENT     : Card present
+ *              - SD_NOT_PRESENT : Card no detect
+ * @retval     true if mount/unmount operation successful
  */
-uint8_t BSP_SD_CardDetect(void)
+bool BSP_SD_MountCardDetect(void)
 {
+    FRESULT Result;
     if(HAL_GPIO_ReadPin(SD_IO_DETECT_GPIO_PORT,SD_IO_DETECT_PIN) == GPIO_PIN_SET)
     {
         SdStatus = SD_NOT_PRESENT;
+        Result = f_mount((FATFS*)NULL,(TCHAR const*)SD_Path,1);
     }
 	else
 	{
 		SdStatus = SD_PRESENT;
+        Result = f_mount(&SD_FatFs,(TCHAR const*)SD_Path,1);
 	}
-	return SdStatus;
+    if(Result == FR_OK)
+    {
+        return(true);
+    }
+    else
+    {
+        return(false);
+    }
 }
 ///-----------------------------------------------------------------------------
 /**
@@ -45,7 +58,7 @@ uint8_t BSP_SD_Init(void)
 	/// Configure IO functionalities for SD pin
 	SD_IO_Init();
     /// check card detect pin    
-    if(BSP_SD_CardDetect() == SD_NOT_PRESENT)
+    if(SdStatus == SD_NOT_PRESENT)
     {
         return MSD_ERROR;
     }

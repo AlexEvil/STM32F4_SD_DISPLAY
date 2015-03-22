@@ -3,33 +3,41 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: µVision V5.12.0.0
-Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+IDE-Version: µVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
 License Information: Evil Microsoft, Microsoft, LIC=V8545-GSMB6-YB1E9-4X2Q5-XURXU-2G44S
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.05 (build 41)
-Assembler:       Armasm.exe V5.05 (build 41)
-Linker/Locator:  ArmLink.exe V5.05 (build 41)
-Library Manager: ArmAr.exe V5.05 (build 41)
-Hex Converter:   FromElf.exe V5.05 (build 41)
-CPU DLL:         SARMCM3.DLL V5.12.0.0
-Dialog DLL:      DCM.DLL V1.13.0.0
-    Target DLL: STLink\ST-LINKIII-KEIL_SWO.dll
-Dialog DLL:      TCM.DLL V1.14.2.0
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
-E:\Projects\Electronics\Current\Display\AT050TN\GitHub\STM32F4_SD_DISPLAY\prj\Display.uvprojx
-Project File Date:  03/17/2015
+E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\Display.uvprojx
+Project File Date:  03/19/2015
 
 <h2>Output:</h2>
 Build target 'Target'
-compiling stm32f4xx_it.c...
+compiling consol.cpp...
+..\src\consol.cpp(78): warning:  #177-D: variable "id" was declared but never referenced
+      int32_t id;
+..\src\consol.cpp(79): warning:  #177-D: variable "drive" was declared but never referenced
+      char drive[4];
+..\src\consol.cpp(45): warning:  #177-D: variable "cmd" was declared but never referenced
+  static const SCMD cmd[] =
+..\src\consol.cpp: 3 warnings, 0 errors
+compiling FS_Config.c...
 linking...
-Program Size: Code=77430 RO-data=3610 RW-data=180 ZI-data=43740  
-".\Objects\Display.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=77814 RO-data=3610 RW-data=180 ZI-data=44284  
+".\Objects\Display.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -66,8 +74,8 @@ Package Vendor: Keil
    * Component: SPI Version: 2.01
 
 <h2>Collection of Component include folders:</h2>
-  E:\Projects\Electronics\Current\Display\AT050TN\GitHub\STM32F4_SD_DISPLAY\prj\RTE
-  E:\Projects\Electronics\Current\Display\AT050TN\GitHub\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx
+  E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE
+  E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC
@@ -156,33 +164,3 @@ Package Vendor: Keil
 </pre>
 </body>
 </html>
-onics\\Current\\Display\\AT050TN\\GitHub\\STM32F4_SD_DISPLAY\\prj\\Objects\\Display.axf" 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-.
-M32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
-
-   * Component: Keil::Device:STM32Cube HAL:GPIO:1.1.0
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
-
-   * Component: Keil::Device:STM32Cube HAL:PWR:1.1.0
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
-
-   * Component: Keil::Device:STM32Cube HAL:RCC:1.1.0
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
-
-   * Component: Keil::Device:STM32Cube HAL:SPI:1.1.0
-      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
-
-   * Component: Keil::CMSIS Driver:SPI:2.01
-      Source file:   CMSIS\Driver\SPI_STM32F4xx.c
-Load "E:\\Projects\\Electronics\\Current\\Display\\AT050TN\\GitHub\\STM32F4_SD_DISPLAY\\prj\\Objects\\Display.axf" 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...

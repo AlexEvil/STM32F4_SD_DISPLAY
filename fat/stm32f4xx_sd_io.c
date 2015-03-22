@@ -153,18 +153,11 @@ void SD_IO_Init(void)
 	/// SD_CS_GPIO Periph clock enable
 	SD_CS_GPIO_CLK_ENABLE();
     /// SD_CD_GPIO Periph clock enable
-    SD_IO_DETECT_GPIO_CLK_ENABLE();
-	/// Configure SD_CS_PIN pin: SD Card CS pin
 	GPIO_InitStruct.Pin   = SD_CS_PIN;
 	GPIO_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
 	GPIO_InitStruct.Pull  = GPIO_PULLUP;
 	GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
 	HAL_GPIO_Init(SD_CS_GPIO_PORT, &GPIO_InitStruct);
-    /// Configure SPI Card Detect Pin
-	GPIO_InitStruct.Pin       = SD_IO_DETECT_PIN;
-	GPIO_InitStruct.Mode      = GPIO_MODE_IT_RISING_FALLING; //GPIO_MODE_INPUT;
-	GPIO_InitStruct.Pull      = GPIO_NOPULL;
-    HAL_GPIO_Init(SD_IO_DETECT_GPIO_PORT, &GPIO_InitStruct);
 	/// Put SD in SPI mode
 	/// SD SPI Config
 	SPIx_Init();

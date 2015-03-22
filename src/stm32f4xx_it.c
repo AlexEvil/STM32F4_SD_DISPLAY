@@ -1,43 +1,20 @@
-
-/* Includes ------------------------------------------------------------------*/
+///-----------------------------------------------------------------------------
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_it.h"
-
-
-
+///-----------------------------------------------------------------------------
 #ifdef _RTE_
-#include "RTE_Components.h"             // Component selection
+    #include "RTE_Components.h" /// Component selection
 #endif
-
-/** @addtogroup STM32F4xx_HAL_Examples
-  * @{
-  */
-
-/** @addtogroup Templates
-  * @{
-  */
-
-/* Private typedef -----------------------------------------------------------*/
-/* Private define ------------------------------------------------------------*/
-/* Private macro -------------------------------------------------------------*/
-/* Private variables ---------------------------------------------------------*/
-
-/* Private function prototypes -----------------------------------------------*/
-/* Private functions ---------------------------------------------------------*/
-
-/******************************************************************************/
-/*            Cortex-M4 Processor Exceptions Handlers                         */
-/******************************************************************************/
-
+///-----------------------------------------------------------------------------
 /**
-  * @brief   This function handles NMI exception.
+  * @brief  This function handles NMI exception.
   * @param  None
   * @retval None
   */
 void NMI_Handler(void)
 {
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles Hard Fault exception.
   * @param  None
@@ -45,12 +22,12 @@ void NMI_Handler(void)
   */
 void HardFault_Handler(void)
 {
-  /* Go to infinite loop when Hard Fault exception occurs */
-  while (1)
+  /// Go to infinite loop when Hard Fault exception occurs
+  while(1)
   {
   }
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles Memory Manage exception.
   * @param  None
@@ -58,12 +35,12 @@ void HardFault_Handler(void)
   */
 void MemManage_Handler(void)
 {
-  /* Go to infinite loop when Memory Manage exception occurs */
-  while (1)
+  /// Go to infinite loop when Memory Manage exception occurs
+  while(1)
   {
   }
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles Bus Fault exception.
   * @param  None
@@ -71,12 +48,12 @@ void MemManage_Handler(void)
   */
 void BusFault_Handler(void)
 {
-  /* Go to infinite loop when Bus Fault exception occurs */
-  while (1)
+  /// Go to infinite loop when Bus Fault exception occurs
+  while(1)
   {
   }
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles Usage Fault exception.
   * @param  None
@@ -84,23 +61,23 @@ void BusFault_Handler(void)
   */
 void UsageFault_Handler(void)
 {
-  /* Go to infinite loop when Usage Fault exception occurs */
+  /// Go to infinite loop when Usage Fault exception occurs
   while (1)
   {
   }
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles SVCall exception.
   * @param  None
   * @retval None
   */
 #ifndef RTE_CMSIS_RTOS_RTX
-void SVC_Handler(void)
-{
-}
+    void SVC_Handler(void)
+    {
+    }
 #endif
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles Debug Monitor exception.
   * @param  None
@@ -109,45 +86,43 @@ void SVC_Handler(void)
 void DebugMon_Handler(void)
 {
 }
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles PendSVC exception.
   * @param  None
   * @retval None
   */
 #ifndef RTE_CMSIS_RTOS_RTX
-void PendSV_Handler(void)
-{
-}
+    void PendSV_Handler(void)
+    {
+    }
 #endif
-
+///-----------------------------------------------------------------------------
 /**
   * @brief  This function handles SysTick Handler.
   * @param  None
   * @retval None
   */
 #ifndef RTE_CMSIS_RTOS_RTX
-void SysTick_Handler(void)
-{
-  HAL_IncTick();
-}
+    void SysTick_Handler(void)
+    {
+        HAL_IncTick();
+    }
 #endif
-
-/******************************************************************************/
-/*                 STM32F4xx Peripherals Interrupt Handlers                   */
-/*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
-/*  available peripheral interrupt handler's name please refer to the startup */
-/*  file (startup_stm32f4xx.s).                                               */
-/******************************************************************************/
-
-/**
-  * @brief  This function handles PPP interrupt request.
-  * @param  None
-  * @retval None
-  */
-/*void PPP_IRQHandler(void)
+///-----------------------------------------------------------------------------
+void EXTI9_5_IRQHandler(void)
 {
-}*/
+	HAL_GPIO_EXTI_IRQHandler(SD_IO_DETECT_PIN);
+}
+///-----------------------------------------------------------------------------
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if(GPIO_Pin == SD_IO_DETECT_PIN)
+	{
+		BSP_SD_MountCardDetect();
+	}
+}
+///-----------------------------------------------------------------------------
 void WWDG_IRQHandler(void){while(1){}}
 void PVD_IRQHandler(void){while(1){}}
 void TAMP_STAMP_IRQHandler(void){while(1){}}
@@ -171,20 +146,6 @@ void CAN1_TX_IRQHandler(void){while(1){}}
 void CAN1_RX0_IRQHandler(void){while(1){}}
 void CAN1_RX1_IRQHandler(void){while(1){}}
 void CAN1_SCE_IRQHandler(void){while(1){}}
-///-----------------------------------------------------------------------------
-void EXTI9_5_IRQHandler(void)
-{
-	HAL_GPIO_EXTI_IRQHandler(SD_IO_DETECT_PIN);
-}
-///-----------------------------------------------------------------------------
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
-	if(GPIO_Pin == SD_IO_DETECT_PIN)
-	{
-		BSP_SD_CardDetect();
-	}
-}
-///-----------------------------------------------------------------------------
 void TIM1_BRK_TIM9_IRQHandler(void){while(1){}}
 void TIM1_UP_TIM10_IRQHandler(void){while(1){}}
 void TIM1_TRG_COM_TIM11_IRQHandler(void){while(1){}}
@@ -242,13 +203,4 @@ void OTG_HS_IRQHandler(void){while(1){}}
 void DCMI_IRQHandler(void){while(1){}}
 void HASH_RNG_IRQHandler(void){while(1){}}
 void FPU_IRQHandler(void){while(1){}}
-
-/**
-  * @}
-  */ 
-
-/**
-  * @}
-  */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+///-----------------------------------------------------------------------------

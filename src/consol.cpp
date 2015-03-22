@@ -1,12 +1,11 @@
-#ifdef MY_USE_CONSOL
 ///-----------------------------------------------------------------------------
-#include <stdio.h>  /// Standard I/O .h-file
-#include <ctype.h>  /// Character functions
-#include <string.h> /// String and memory functions
-#include "consol.h" /// Consol definitions
-
-#include "cmsis_os.h" /// CMSIS RTOS definitions
-#include "rl_fs.h"    /// FileSystem definitions
+#include <stdio.h>
+///-----------------------------------------------------------------------------
+#include "consol.h"
+#include "sd_storage.h"
+///-----------------------------------------------------------------------------
+static void cmd_help(char *par);
+static void cmd_cid(char *par);
 ///-----------------------------------------------------------------------------
 /// Command definitions structure
 ///-----------------------------------------------------------------------------
@@ -16,27 +15,9 @@ typedef struct scmd
     void (*func)(char *par);
 } SCMD;
 ///-----------------------------------------------------------------------------
-/// Command function prototypes
-//static void cmd_capture (char *par);
-//static void cmd_type    (char *par);
-//static void cmd_rename  (char *par);
-//static void cmd_copy    (char *par);
-//static void cmd_delete  (char *par);
-//static void cmd_dir     (char *par);
-//static void cmd_format  (char *par);
-static void cmd_help    (char *par);
-//static void cmd_fill    (char *par);
-//static void cmd_attrib  (char *par);
-static void cmd_cid     (char *par);
-///-----------------------------------------------------------------------------
-/// Local constants
-static const char intro[] =
-{
-    "\n\n\n\n\n\n\n\n"
-    "+-----------------------------------------------------------------------------+\n"
-    "|                    FileSystem File Manipulation                             |\n"
-};
-///-----------------------------------------------------------------------------
+/**
+ *  @brief Consol help commands
+ */
 static const char help[] = 
 {
     "+ command -------------------- function --------------------------------------+\n"
@@ -58,6 +39,9 @@ static const char help[] =
     "+---------------------------------+-------------------------------------------+\n"
 };
 ///-----------------------------------------------------------------------------
+/**
+ *  @brief Consol type commands
+ */
 static const SCMD cmd[] =
 {
 //    "CAP",    cmd_capture,
@@ -73,6 +57,84 @@ static const SCMD cmd[] =
     "CID",    cmd_cid,
     "?",      cmd_help
 };
+///-----------------------------------------------------------------------------
+/**
+ *  @brief Display Command Syntax help
+ *  @param char*       - pointer to a line
+ *  @param int32_t     - count char iat current line
+ *  @return true/false - successful/failed
+ */
+static void cmd_help(char *par)
+{
+    printf(help);
+}
+///-----------------------------------------------------------------------------
+/**
+ *  @brief Read and output SD card CID register
+ *  @param char* - pointer to a line
+ */
+static void cmd_cid(char *par)
+{
+    SD_CardInfo Cid;
+    if(StorageGetInfo(&Cid) == true)
+    {
+        //printf("Manufacturer ID: %d (0x%.2X)\n",cid.MID,cid.MID);
+        //printf("OEM/Application ID: %c%c\n",cid.OID >> 8,cid.OID & 0xFF);
+        //printf("Product name: %c%c%c%c%c\n",cid.PNM[0],cid.PNM[1],cid.PNM[2],cid.PNM[3],cid.PNM[4]);
+        //printf("Product revision: %d.%d\n",cid.PRV >> 4,cid.PRV & 0x0F);
+        //printf("Product serial number: 0x%X\n",cid.PSN);
+        //printf("Manufacturing date: %d/%.2d\n",cid.MDT & 0x0F,cid.MDT >> 4);
+    }
+    else
+    {
+        printf("CID register read failed.\n");
+    }
+}
+///-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+///-----------------------------------------------------------------------------
+
+#ifdef MY_USE_CONSOL
+///-----------------------------------------------------------------------------
+///#include <stdio.h>  /// Standard I/O .h-file
+///#include <ctype.h>  /// Character functions
+///#include <string.h> /// String and memory functions
+
+///#include "cmsis_os.h" /// CMSIS RTOS definitions
+///#include "rl_fs.h"    /// FileSystem definitions
+///-----------------------------------------------------------------------------
+
+///-----------------------------------------------------------------------------
+/// Command function prototypes
+//static void cmd_capture (char *par);
+//static void cmd_type    (char *par);
+//static void cmd_rename  (char *par);
+//static void cmd_copy    (char *par);
+//static void cmd_delete  (char *par);
+//static void cmd_dir     (char *par);
+//static void cmd_format  (char *par);
+
+//static void cmd_fill    (char *par);
+//static void cmd_attrib  (char *par);
+
+///-----------------------------------------------------------------------------
+/// Local constants
+static const char intro[] =
+{
+    "\n\n\n\n\n\n\n\n"
+    "+-----------------------------------------------------------------------------+\n"
+    "|                    FileSystem File Manipulation                             |\n"
+};
+///-----------------------------------------------------------------------------
+
 ///-----------------------------------------------------------------------------
 #define CMD_COUNT   (sizeof (cmd) / sizeof (cmd[0]))
 ///-----------------------------------------------------------------------------
@@ -193,51 +255,8 @@ static void dot_format(uint64_t val,char *sp)
     sprintf(sp,"%d",(uint32_t)(val));
     return;
 }
-///-----------------------------------------------------------------------------
-/**
- *  @brief Read and output SD card CID register
- *  @param char* - pointer to a line
- */
-static void cmd_cid(char *par)
-{
-    char drive[4];
-    int32_t id;
-    fsCID_Register cid;
-    par = get_drive(par,drive,4);
-    id = fs_ioc_get_id(drive);
-    if(id >= 0 && (fs_ioc_lock (id) == fsOK))
-    {
-        if(fs_ioc_device_ctrl (id, fsDevCtrlCodeGetCID, &cid) == fsOK)
-        {
-            printf("Manufacturer ID: %d (0x%.2X)\n",cid.MID,cid.MID);
-            printf("OEM/Application ID: %c%c\n",cid.OID >> 8,cid.OID & 0xFF);
-            printf("Product name: %c%c%c%c%c\n",cid.PNM[0],cid.PNM[1],cid.PNM[2],cid.PNM[3],cid.PNM[4]);
-            printf("Product revision: %d.%d\n",cid.PRV >> 4,cid.PRV & 0x0F);
-            printf("Product serial number: 0x%X\n",cid.PSN);
-            printf("Manufacturing date: %d/%.2d\n",cid.MDT & 0x0F,cid.MDT >> 4);
-        }
-        else
-        {
-            printf("CID register read failed.\n");
-        }
-        fs_ioc_unlock(id);
-    }
-    else
-    {
-        printf("Specified drive doesn't exists!");
-    }
-}
-///-----------------------------------------------------------------------------
-/**
- *  @brief Display Command Syntax help
- *  @param char*       - pointer to a line
- *  @param int32_t     - count char iat current line
- *  @return true/false - successful/failed
- */
-static void cmd_help(char *par)
-{
-    printf(help);
-}
+
+
 ///-----------------------------------------------------------------------------
 /**
  *  @brief Line Editor

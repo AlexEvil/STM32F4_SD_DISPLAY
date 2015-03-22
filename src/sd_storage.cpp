@@ -5,19 +5,32 @@ FATFS SD_FatFs;   /// File system object for User logical drive
 FIL   SD_File;    /// File object
 char  SD_Path[4]; /// User logical drive path
 ///-----------------------------------------------------------------------------
-bool SD_Connect(void)
+void StorageInit(void)
 {
-	if(FATFS_LinkDriver(&SD_Driver,SD_Path) == 0)
-	{
-		if(f_mount(&SD_FatFs,(TCHAR const*)SD_Path,1) == FR_OK)
-        {
-            return(true);
-        }
-	}
-    return(false);
+    GPIO_InitTypeDef  GPIO_InitStruct;
+    SD_IO_DETECT_GPIO_CLK_ENABLE();
+    /// Configure SPI Card Detect Pin
+	GPIO_InitStruct.Pin       = SD_IO_DETECT_PIN;
+	GPIO_InitStruct.Mode      = GPIO_MODE_IT_RISING_FALLING; //GPIO_MODE_INPUT;
+	GPIO_InitStruct.Pull      = GPIO_NOPULL;
+    HAL_GPIO_Init(SD_IO_DETECT_GPIO_PORT, &GPIO_InitStruct);
+    /// initialization interrupt for uSD driver
+    HAL_NVIC_SetPriority(EXTI9_5_IRQn,0,1);
+	HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
 }
 ///-----------------------------------------------------------------------------
-bool SD_Disconnect(void)
+bool StorageConnect(void)
+{
+    bool Result;
+    Result = FATFS_LinkDriver(&SD_Driver,SD_Path);
+	if(Result == 0)
+	{
+        Result = BSP_SD_MountCardDetect();
+	}
+    return(Result);
+}
+///-----------------------------------------------------------------------------
+bool StorageDisconnect(void)
 {
 	if(f_mount((FATFS*)NULL,(TCHAR const*)SD_Path,1) == FR_OK)
 	{
@@ -36,7 +49,18 @@ bool SD_Disconnect(void)
 	}
 }
 ///-----------------------------------------------------------------------------
-bool SD_WriteLn(const char* file_name,char* buffer,uint32_t length)
+bool StorageGetInfo(SD_CardInfo* Info)
+{
+    uint8_t Ret;
+    Ret = BSP_SD_GetCardInfo(Info);
+    if(Ret == MSD_OK)
+    {
+        return(true);
+    }
+    return(false);
+}
+///-----------------------------------------------------------------------------
+bool StorageWriteLn(const char* file_name,char* buffer,uint32_t length)
 {
 	FRESULT f_res;
 	FILINFO f_info;

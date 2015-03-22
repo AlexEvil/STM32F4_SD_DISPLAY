@@ -1,8 +1,8 @@
 ///-----------------------------------------------------------------------------
 ///  Low level disk interface modlue include file
 ///-----------------------------------------------------------------------------
-#ifndef _DISKIO_DEFINED
-#define _DISKIO_DEFINED
+#ifndef _DISKIO_H
+#define _DISKIO_H
 ///-----------------------------------------------------------------------------
 #ifdef __cplusplus
 extern "C" {
@@ -26,11 +26,11 @@ typedef enum {
 } DRESULT;
 ///-----------------------------------------------------------------------------
 /// Prototypes for disk control functions
-DSTATUS disk_initialize (BYTE pdrv);
-DSTATUS disk_status (BYTE pdrv);
-DRESULT disk_read (BYTE pdrv, BYTE*buff, DWORD sector, BYTE count);
-DRESULT disk_write (BYTE pdrv, const BYTE* buff, DWORD sector, BYTE count);
-DRESULT disk_ioctl (BYTE pdrv, BYTE cmd, void* buff);
+DSTATUS disk_initialize(BYTE pdrv);
+DSTATUS disk_status(BYTE pdrv);
+DRESULT disk_read(BYTE pdrv, BYTE*buff, DWORD sector, BYTE count);
+DRESULT disk_write(BYTE pdrv, const BYTE* buff, DWORD sector, BYTE count);
+DRESULT disk_ioctl(BYTE pdrv, BYTE cmd, void* buff);
 ///-----------------------------------------------------------------------------
 /// Disk Status Bits (DSTATUS)
 #define STA_NOINIT		0x01	/// Drive not initialized

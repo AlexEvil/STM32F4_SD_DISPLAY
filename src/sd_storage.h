@@ -6,15 +6,20 @@
  extern "C" {
 #endif
 ///-----------------------------------------------------------------------------
+#include <stdint.h>
 #include <stdbool.h>
 ///-----------------------------------------------------------------------------
-#include "../fat/ff_gen_drv.h"
 #include "../fat/sd_diskio.h"
-#include "../fat/sd_diskio.h"
+///-----------------------------------------------------------------------------     
+extern FATFS SD_FatFs;   /// File system object for User logical drive
+extern FIL   SD_File;    /// File object
+extern char  SD_Path[4]; /// User logical drive path
 ///-----------------------------------------------------------------------------
-extern bool SD_Connect(void);
-extern bool SD_Disconnect(void);
-extern bool SD_WriteLn(const char* file_name,char* buffer,uint32_t length);
+void StorageInit(void);
+bool StorageConnect(void);
+bool StorageDisconnect(void);
+bool StorageWriteLn(const char* file_name,char* buffer,uint32_t length);
+extern bool StorageGetInfo(SD_CardInfo* Info);
 ///-----------------------------------------------------------------------------
 #ifdef __cplusplus
 }

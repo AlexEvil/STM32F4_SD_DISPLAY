@@ -7,6 +7,7 @@
 #endif 
 ///-----------------------------------------------------------------------------
 #include <stdint.h>
+#include <stdbool.h>
 #include "stm32f4xx_sd_io.h"
 ///-----------------------------------------------------------------------------
 /** @addtogroup BSP
@@ -181,6 +182,8 @@ uint8_t BSP_SD_WriteBlocks(uint32_t *pData,uint32_t WriteAddr,uint16_t BlockSize
 uint8_t BSP_SD_Erase(uint32_t StartAddr,uint32_t EndAddr);
 uint8_t BSP_SD_GetStatus(void);
 uint8_t BSP_SD_GetCardInfo(SD_CardInfo *pCardInfo);
+//extern FRESULT BSP_SD_MountCardDetect(void);
+bool    BSP_SD_MountCardDetect(void);
 ///-----------------------------------------------------------------------------
 /**
  * @brief  Link functions for SD Card peripheral
@@ -191,7 +194,6 @@ uint8_t SD_IO_ReadByte(void);
 uint8_t SD_IO_WriteCmd(uint8_t Cmd,uint32_t Arg,uint8_t Crc,uint8_t Response);
 uint8_t SD_IO_WaitResponse(uint8_t Response);
 void    SD_IO_WriteDummy(void);
-uint8_t BSP_SD_CardDetect(void);
 ///-----------------------------------------------------------------------------
 #ifdef __cplusplus
 }

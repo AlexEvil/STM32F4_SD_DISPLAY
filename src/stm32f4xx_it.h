@@ -6,7 +6,7 @@
  extern "C" {
 #endif 
 ///-----------------------------------------------------------------------------
-#include "../fat/stm32_bsp_sd.h"
+#include "..\fat\stm32_bsp_sd.h"
 ///-----------------------------------------------------------------------------
 void NMI_Handler(void);
 void HardFault_Handler(void);

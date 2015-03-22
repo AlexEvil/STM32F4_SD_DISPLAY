@@ -6,6 +6,7 @@
 #include <stddef.h>
 ///-----------------------------------------------------------------------------
 #include "led.h"
+#include "consol.h"
 #include "sd_storage.h"
 ///-----------------------------------------------------------------------------
 #define USES_SD
@@ -83,38 +84,33 @@ void MainSystemInit(void)
     {
         Error_Handler();
     }
+    /// initialization uSD
+    StorageInit();
     return;
 }
 ///-----------------------------------------------------------------------------
 int main(void)
 {
     char text[] = "thise is new version board";	
-    SD_CardInfo pCardInfo;
-    uint32_t PreemptPriority = 0;
-    uint32_t SubPriority = 1;
+    SD_CardInfo Info;
     ///-------------------------------------------------------------------------
     MainSystemInit();
     LedInit();
 	osDelay(500);
-
-			HAL_NVIC_SetPriority(EXTI9_5_IRQn,PreemptPriority,SubPriority);
-			HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
-        if(SD_Connect() == false)
+    
+        cmd[1];
+    
+        if(StorageConnect() == false)
         {
             LedOn(LED_RED);
         }
-		else
-		{
-
-		}
     #endif
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
-        BSP_SD_GetCardInfo(&pCardInfo);
-        
-        if(SD_WriteLn("E_V_I_L_TEST.TXT",&text[0],sizeof(text)) == false)
+        StorageGetInfo(&Info);
+        if(StorageWriteLn("E_V_I_L_TEST.TXT",&text[0],sizeof(text)) == false)
         {
             LedOn(LED_RED);
         }
@@ -125,7 +121,7 @@ int main(void)
     #endif
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
-        SD_Disconnect();
+        StorageDisconnect();
     #endif
     ///-------------------------------------------------------------------------
     while(1)

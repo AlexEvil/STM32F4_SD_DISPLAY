@@ -52,6 +52,6 @@
 //   <q>Use FAT Journal
 //   <i>Protect File Allocation Table and Directory Entries for
 //   <i>fail-safe operation.
-#define MC0_FAT_JOURNAL         0
+#define MC0_FAT_JOURNAL         1
 
 // </h>
