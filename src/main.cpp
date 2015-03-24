@@ -7,7 +7,7 @@
 ///-----------------------------------------------------------------------------
 #include "led.h"
 #include "consol.h"
-#include "sd_storage.h"
+#include "vector"
 ///-----------------------------------------------------------------------------
 #define USES_SD
 ///-----------------------------------------------------------------------------
@@ -96,16 +96,13 @@ int main(void)
     char text[] = "thise is new version board";	
     SD_CardInfo Info;
     char cmd[] = "qwertgfdsa";
+    std::vector<int> vec;
     ///-------------------------------------------------------------------------
     MainSystemInit();
     LedInit();
 	osDelay(500);
-    
-    
-//     printf("Hello, world!");
     ///-------------------------------------------------------------------------
     #ifdef USES_SD
-    
         ConsolTest(&cmd[0],10);
     
         if(StorageConnect() == false)

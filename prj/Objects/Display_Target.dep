@@ -279,7 +279,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
-F (..\src\main.cpp)(0x550EEC98)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\src\main.cpp)(0x55119E4C)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h)(0x541FD376)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54764760)
@@ -312,7 +312,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
-I (..\src\consol.h)(0x550EEC2E)
+I (..\src\consol.h)(0x5511847E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54764760)
 I (..\src\sd_storage.h)(0x550AED23)
 I (..\src\../fat/sd_diskio.h)(0x550ACF95)
@@ -324,6 +324,32 @@ I (..\src\../fat/ff.h)(0x550AC954)
 I (..\src\../fat/ff_conf.h)(0x547DCF91)
 I (..\src\../fat/stm32_bsp_sd.h)(0x550AD7D3)
 I (..\src\../fat/stm32f4xx_sd_io.h)(0x550AD7C0)
+I (..\src\stm32f4xx_uart_io.h)(0x551184BB)
+I (C:\Keil_v5\ARM\ARMCC\include\vector)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51408BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D916B8)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x5310AE9C)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5476475E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476475E)
+I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x54764760)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x54764760)
+I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x54764760)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5476475A)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F318BE2)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5476475E)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x54764760)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5476474E)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1FF44)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x54764760)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1FF44)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1FF46)
+I (C:\Keil_v5\ARM\ARMCC\include\vector.CC)(0x4EB1FF44)
 F (..\src\sd_storage.cpp)(0x550AED23)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\sd_storage.o --omf_browse .\objects\sd_storage.crf --depend .\objects\sd_storage.d)
 I (..\src\sd_storage.h)(0x550AED23)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
@@ -363,11 +389,19 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
 I (..\src\../fat/stm32_bsp_sd.h)(0x550AD7D3)
 I (..\src\../fat/stm32f4xx_sd_io.h)(0x550AD7C0)
-F (..\src\consol.cpp)(0x550EEC4D)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\consol.o --omf_browse .\objects\consol.crf --depend .\objects\consol.d)
+F (..\src\consol.cpp)(0x55117F36)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\consol.o --omf_browse .\objects\consol.crf --depend .\objects\consol.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54764760)
-I (..\src\consol.h)(0x550EEC2E)
+I (..\src\consol.h)(0x5511847E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54764760)
+I (..\src\sd_storage.h)(0x550AED23)
+I (..\src\../fat/sd_diskio.h)(0x550ACF95)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54764760)
+I (..\src\../fat/ff_gen_drv.h)(0x550ACD23)
+I (..\src\../fat/diskio.h)(0x550ACFF8)
+I (..\src\../fat/integer.h)(0x54ECC7C1)
+I (..\src\../fat/ff.h)(0x550AC954)
+I (..\src\../fat/ff_conf.h)(0x547DCF91)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABD8A0)
 I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)
 I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\RTE_Components.h)(0x550EAAC0)
@@ -394,17 +428,9 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
-I (..\src\sd_storage.h)(0x550AED23)
-I (..\src\../fat/sd_diskio.h)(0x550ACF95)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54764760)
-I (..\src\../fat/ff_gen_drv.h)(0x550ACD23)
-I (..\src\../fat/diskio.h)(0x550ACFF8)
-I (..\src\../fat/integer.h)(0x54ECC7C1)
-I (..\src\../fat/ff.h)(0x550AC954)
-I (..\src\../fat/ff_conf.h)(0x547DCF91)
 I (..\src\../fat/stm32_bsp_sd.h)(0x550AD7D3)
 I (..\src\../fat/stm32f4xx_sd_io.h)(0x550AD7C0)
-I (..\src\stm32f4xx_uart_io.h)(0x550EEAF9)
+I (..\src\stm32f4xx_uart_io.h)(0x551184BB)
 F (..\src\stm32f4xx_it.c)(0x550EB32A)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABD8A0)
 I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)
@@ -437,8 +463,8 @@ I (..\src\stm32f4xx_it.h)(0x550AB8FD)
 I (..\src\..\fat\stm32_bsp_sd.h)(0x550AD7D3)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54764760)
 I (..\src\..\fat\stm32f4xx_sd_io.h)(0x550AD7C0)
-F (..\src\stm32f4xx_uart_io.cpp)(0x550EEB95)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f4xx_uart_io.o --omf_browse .\objects\stm32f4xx_uart_io.crf --depend .\objects\stm32f4xx_uart_io.d)
-I (..\src\stm32f4xx_uart_io.h)(0x550EEAF9)
+F (..\src\stm32f4xx_uart_io.cpp)(0x55119309)(--cpp -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f4xx_uart_io.o --omf_browse .\objects\stm32f4xx_uart_io.crf --depend .\objects\stm32f4xx_uart_io.d)
+I (..\src\stm32f4xx_uart_io.h)(0x551184BB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABD8A0)
 I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)
@@ -466,6 +492,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
+I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\RTE_Device.h)(0x550EB977)
 F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\LIB\ARM\RTX_CM4.lib)(0x541FD376)()
 F (RTE\CMSIS\RTX_Conf_CM.c)(0x550A9F06)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h)(0x541FD376)
@@ -822,18 +849,6 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
-F (RTE\Device\STM32F407VGTx\RTE_Device.h)(0x550EB977)()
-F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x550A9F06)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork -I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
-F (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)()
-F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x550A9F06)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53ABD89A)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x53ABD89A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC6A1A)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF2AEA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF2AEA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FC6A1A)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABD89A)
 F (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c)(0x53ABD89C)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\stm32f4xx_hal_uart.o --omf_browse .\objects\stm32f4xx_hal_uart.crf --depend .\objects\stm32f4xx_hal_uart.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABD8A0)
 I (E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)
@@ -890,6 +905,18 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABD8A0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABD8A0)
+F (RTE\Device\STM32F407VGTx\RTE_Device.h)(0x550EB977)()
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x550A9F06)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork -I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
+F (RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h)(0x550AC9F4)()
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x550A9F06)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53ABD89A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x53ABD89A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FC6A1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54764760)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF2AEA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF2AEA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FC6A1A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABD89A)
 F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Lib\ARM\FS_LFN_CM3_L.lib)(0x544634D0)()
 F (RTE\File_System\FS_Config.c)(0x550A9F06)(-c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork -I..\src-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE-I E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\FileSystem\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F407xx-o .\objects\fs_config.o --omf_browse .\objects\fs_config.crf --depend .\objects\fs_config.d)
 I (RTE\File_System\..\RTE_Components.h)(0x550EAAC0)

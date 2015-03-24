@@ -27,3 +27,4 @@
 .\objects\stm32f4xx_uart_io.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h
 .\objects\stm32f4xx_uart_io.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h
 .\objects\stm32f4xx_uart_io.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h
+.\objects\stm32f4xx_uart_io.o: E:\Projects\Electronics\Current\Display\STM32F4_SD_DISPLAY\prj\RTE\Device\STM32F407VGTx\RTE_Device.h

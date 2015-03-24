@@ -19,8 +19,6 @@
 #define UART_IO_TX_GPIO_PIN                                           GPIO_PIN_0
 #define UART_IO_RX_TX_GPIO_CLK_ENABLE()                     __GPIOA_CLK_ENABLE()
 #define UART_IO_RX_TX_GPIO_CLK_DISABLE()                   __GPIOA_CLK_DISABLE()
-///-----------------------------------------------------------------------------	 
-//#define SD_IO_SPIx_TIMEOUT_MAX                                              1000
 ///-----------------------------------------------------------------------------
 void UART_IO_Init(void);
 HAL_StatusTypeDef UART_IO_Write(uint8_t *pData,uint16_t Size,uint32_t Timeout);

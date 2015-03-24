@@ -1,5 +1,6 @@
 ///-----------------------------------------------------------------------------
 #include "stm32f4xx_uart_io.h"
+#include "RTE_Device.h"
 ///-----------------------------------------------------------------------------
 static UART_HandleTypeDef UartHandle;
 ///-----------------------------------------------------------------------------
@@ -66,16 +67,16 @@ HAL_StatusTypeDef UART_IO_Write(uint8_t *pData,uint16_t Size,uint32_t Timeout)
  */
 void UART_IO_Init(void)
 {
-    GPIO_InitTypeDef  GPIO_InitStruct;    
     #ifndef RTE_UART4
-//        #error "Invalid RTE_UART4 defination in Configuration!"
+        #error "Invalid RTE_UART4 defination in Configuration!"
     #endif
-    #ifdef RTE_UART4_RX_DMA
+    #if RTE_UART4_RX_DMA
         #error "Invalid UART. Now not uses DMA Interface!"
     #endif
-    #ifdef RTE_UART4_TX_DMA
+    #if RTE_UART4_TX_DMA
         #error "Invalid UART. Now not uses DMA Interface!"
     #endif
+    GPIO_InitTypeDef  GPIO_InitStruct;    
     /// Enable GPIO TX/RX clock
     UART_IO_RX_TX_GPIO_CLK_ENABLE();
     UART_IO_CLK_ENABLE(); 
