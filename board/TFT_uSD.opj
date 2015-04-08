@@ -162,11 +162,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 848 50 424")
-        (Scroll "481 510")
+        (Placement "44 2 3 -1 -1 -8 -30 50 823 50 434")
+        (Scroll "240 256")
         (Zoom "144")
         (Occurrence "/"))
-      (Path "E:\PROJECTS\ELECTRONICS\CURRENT\DISPLAY\AT050TN\BOARD\TFT_USD.DSN")
+      (Path
+         "E:\PROJECTS\ELECTRONICS\CURRENT\DISPLAY\STM32F4_SD_DISPLAY\BOARD\TFT_USD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Main")))
   (MPSSessionName "EVIL")
