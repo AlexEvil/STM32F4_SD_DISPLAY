@@ -163,7 +163,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 823 50 434")
-        (Scroll "240 256")
+        (Scroll "240 0")
         (Zoom "144")
         (Occurrence "/"))
       (Path
